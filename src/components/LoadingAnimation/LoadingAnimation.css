@@ -1,4 +1,17 @@
-.loader {
+.loading-animation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.loading-animation {
     width: fit-content;
     font-weight: bold;
     font-family: monospace;
@@ -8,7 +21,7 @@
     height: 1.2em;
     overflow: hidden;
 }
-.loader:before {
+.loading-animation:before {
     content: "Loading...\A⌰oading...\A⌰⍜ading...\A⌰⍜⏃ding...\A⌰⍜⏃⎅ing...\A⌰⍜⏃⎅⟟ng...\A⌰⍜⏃⎅⟟⋏g...\A⌰⍜⏃⎅⟟⋏☌...\A⌰⍜⏃⎅⟟⋏☌⟒..\A⌰⍜⏃⎅⟟⋏☌⟒⏁.\A⌰⍜⏃⎅⟟⋏☌⟒⏁⋔";
     white-space: pre;
     display: inline-block;

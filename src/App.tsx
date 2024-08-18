@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { LoadingAnimation } from "./components/LoadingAnimation/LoadingAnimation";
 
-function App() {
+export const App: React.FunctionComponent = () => {
     const [count, setCount] = useState(0);
 
     return (
@@ -9,6 +9,4 @@ function App() {
             <LoadingAnimation />
         </>
     );
-}
-
-export default App;
+};
