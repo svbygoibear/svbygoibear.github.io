@@ -8,9 +8,9 @@ type HeaderMenuItemProps = {
 export const HeaderMenuItem: React.FunctionComponent<HeaderMenuItemProps> = (
     props: HeaderMenuItemProps
 ) => {
-    const renderMenuItems = (): JSX.Element => {
-        console.log("HeaderMenu props", props);
-        return <React.Fragment>Test Items here</React.Fragment>;
-    };
-    return renderMenuItems();
+    return (
+        <div key={props.item.id}>
+            <a onClick={props.item.onClick}>{props.item?.name}</a>
+        </div>
+    );
 };
