@@ -2,6 +2,8 @@ import React from "react";
 import { MenuItem } from "../../types/MenuItem";
 import { HeaderMenu } from "../HeaderMenu/HeaderMenu";
 
+import ResumeFile from "../../assets/resume.pdf";
+
 type HomeLayoutProps = {
     children?: React.ReactNode;
 };
@@ -13,7 +15,7 @@ export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: Home
             id: "1",
             name: "resume-me",
             onClick: () => {
-                window.open("../src/assets/Resume_Simone-van-Buuren.pdf", "_blank");
+                window.open(ResumeFile, "_blank");
             }
         },
         {
