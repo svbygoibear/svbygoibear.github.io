@@ -4,13 +4,26 @@ import { HeaderMenu } from "../HeaderMenu/HeaderMenu";
 
 type HomeLayoutProps = {
     children?: React.ReactNode;
-    menuItems?: MenuItem[];
 };
 
 export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: HomeLayoutProps) => {
     const menuItems: MenuItem[] = [
-        { icon: "", id: "1", name: "resume-me", onClick: () => {} },
-        { icon: "", id: "2", name: "meeting-me", onClick: () => {} }
+        {
+            icon: "",
+            id: "1",
+            name: "resume-me",
+            onClick: () => {
+                window.open("../src/assets/Resume_Simone-van-Buuren.pdf", "_blank");
+            }
+        },
+        {
+            icon: "",
+            id: "2",
+            name: "meeting-me",
+            onClick: () => {
+                window.open("https://calendly.com/simonevanbuuren/new-meeting", "_blank");
+            }
+        }
     ];
 
     return (
@@ -22,7 +35,7 @@ export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: Home
             <footer className="py-5 bg-gray-200 text-center text-slate-500 text-m font-medium">
                 hand crafted 😎{" "}
                 <a
-                    className="text-pink-500 hover:text-pink-400"
+                    className="text-pink-600 hover:text-pink-400"
                     target="_blank"
                     href="https://github.com/svbygoibear">
                     svbygoibear
