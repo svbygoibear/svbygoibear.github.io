@@ -16,7 +16,13 @@ export const App: React.FunctionComponent = () => {
     return (
         <React.Fragment>
             {isLoading && <LoadingAnimation />}
-            {!isLoading && <HomeLayout />}
+            {!isLoading && (
+                <HomeLayout>
+                    <div className="text-center text-m font-medium text-pink-600 flex h-screen">
+                        <div className="m-auto">watch this space</div>
+                    </div>
+                </HomeLayout>
+            )}
         </React.Fragment>
     );
 };
