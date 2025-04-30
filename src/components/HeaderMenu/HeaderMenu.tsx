@@ -1,5 +1,6 @@
 import React from "react";
 import { MenuItem } from "../../types/MenuItem";
+import { HeaderMenuItem } from "../HeaderMenuItem/HeaderMenuItem";
 
 type HeaderMenuProps = {
     menuItems: MenuItem[];
@@ -7,8 +8,13 @@ type HeaderMenuProps = {
 
 export const HeaderMenu: React.FunctionComponent<HeaderMenuProps> = (props: HeaderMenuProps) => {
     const renderMenuItems = (): JSX.Element => {
-        console.log("HeaderMenu props", props);
-        return <React.Fragment>Test Items here</React.Fragment>;
+        return (
+            <React.Fragment>
+                {props.menuItems.map(menuItem => (
+                    <HeaderMenuItem item={menuItem} />
+                ))}
+            </React.Fragment>
+        );
     };
     return renderMenuItems();
 };
