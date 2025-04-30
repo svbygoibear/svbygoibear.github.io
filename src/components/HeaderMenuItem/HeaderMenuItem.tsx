@@ -9,8 +9,10 @@ export const HeaderMenuItem: React.FunctionComponent<HeaderMenuItemProps> = (
     props: HeaderMenuItemProps
 ) => {
     return (
-        <div key={props.item.id}>
-            <a onClick={props.item.onClick}>{props.item?.name}</a>
-        </div>
+        <a
+            className="rounded-md px-3 py-2 text-m font-medium text-gray-400 hover:bg-gray-700 hover:text-white cursor-pointer"
+            onClick={props.item.onClick}>
+            {props.item.name}
+        </a>
     );
 };
