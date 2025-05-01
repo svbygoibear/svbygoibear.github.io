@@ -30,7 +30,7 @@ export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: Home
 
     return (
         <div className="flex flex-col h-screen">
-            <header className="py-5 bg-gray-200 text-grey text-center">
+            <header className="bg-gray-200 text-grey text-center">
                 <HeaderMenu menuItems={menuItems} />
             </header>
             <main className="flex-1 overflow-y-auto p-5">{props.children}</main>
