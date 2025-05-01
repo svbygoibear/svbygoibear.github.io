@@ -11,12 +11,12 @@ export const AboutMeDescriptionDetails: React.FunctionComponent<AboutMeDescripti
 ) => {
     return (
         <div>
-            <div className="section_title">
-                <FontAwesomeIcon icon={faUserAlt} className="icon_profile" />
+            <div className="content-center text-lg">
+                <FontAwesomeIcon icon={faUserAlt} className="text-xs" />
                 <div>ABOUT ME</div>
             </div>
             {props.details.map(detail => (
-                <div className="description">{detail}</div>
+                <div>{detail}</div>
             ))}
         </div>
     );

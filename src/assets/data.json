@@ -108,5 +108,42 @@
                 "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
             ]
         }
+    ],
+    "languages": [
+        {
+            "language": "Afrikaans",
+            "level": "Native"
+        },
+        {
+            "language": "English",
+            "level": "Native"
+        },
+        {
+            "language": "Portuguese",
+            "level": "Basic"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AZURE DEVELOPER ASSOCIATE (AZ 204)",
+            "date": "07.2021 - 07.2026",
+            "url": "https://learn.microsoft.com/api/credentials/share/en-us/SimonevanBuuren-7765/A64EDC08E72B7922?sharingId=500F3D95C94F5A7A"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BComp Honours in Computer Science",
+            "institution": "Belgium Campus",
+            "location": "Pretoria, South Africa",
+            "startDate": "01.2015",
+            "endDate": "12.2015"
+        },
+        {
+            "degree": "BComp in Computer Science",
+            "institution": "Belgium Campus",
+            "location": "Pretoria, South Africa",
+            "startDate": "01.2012",
+            "endDate": "12.2014"
+        }
     ]
 }

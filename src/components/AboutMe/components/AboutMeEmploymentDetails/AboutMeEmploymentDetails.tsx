@@ -10,75 +10,36 @@ type AboutMeEmploymentDetailsProps = {
 export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmploymentDetailsProps> = (
     props: AboutMeEmploymentDetailsProps
 ) => {
-    console.log(props);
     const renderJobSection = (job: EmploymentDetails): JSX.Element => {
         return (
             <React.Fragment>
-                <div className="job_title">
-                    <div className="job_name">
+                <div className="text-pink-600">
+                    <div>
                         {job.jobTitle} @{job.companyName}
                     </div>
-                    <div className="grey job_city">{job.location}</div>
+                    <div className="text-stone-600">{job.location}</div>
                 </div>
-                <div className="grey job_date">
+                <div className="text-stone-600">
                     {job.startDate}-{job.endDate === null ? "present" : job.endDate}
                 </div>
-                <div className="description">{job.companyDescription}</div>
-                <div className="description">
-                    Technologies used: {job.technologies.map(tech => tech).join(", ")}
-                </div>
+                <div>{job.companyDescription}</div>
+                <div>Technologies used: {job.technologies.map(tech => tech).join(", ")}</div>
+                <ul>
+                    {job.descriptions.map((description, index) => (
+                        <li key={index}>{description}</li>
+                    ))}
+                </ul>
             </React.Fragment>
         );
     };
 
     return (
         <div>
-            <div className="section_title education">
-                <FontAwesomeIcon icon={faBriefcase} className="icon_profile" />
+            <div className="content-center text-lg">
+                <FontAwesomeIcon icon={faBriefcase} className="text-xs" />
                 <div>EMPLOYMENT HISTORY</div>
             </div>
-
             {props.details.map((job: EmploymentDetails) => renderJobSection(job))}
-
-            {/* 
-            <ul>
-                <li>
-                    Crafting scalable front-end solutions that improved system flexibility and
-                    reliability.
-                </li>
-                <li>
-                    Leading the development of UI components, ensuring a consistent user experience
-                    and enhancing performance.
-                </li>
-                <li>
-                    Building no-code forms for effective data handling, improving user interaction
-                    and accuracy.
-                </li>
-                <li>
-                    Implementing end-to-end testing to ensure the reliability of applications,
-                    cutting down on issues after launch.
-                </li>
-                <li>
-                    Aiding in managing serverless backend solutions on AWS, enhancing system
-                    scalability and independence of maintenance.
-                </li>
-                <li>
-                    Streamlining package management in a monorepo setup, boosting build efficiency,
-                    and simplifying updates.
-                </li>
-                <li>
-                    Integrating CSS modules to unify styling approaches, enhancing both performance
-                    and developer ease of use.
-                </li>
-                <li>
-                    Working closely with UX designers, product managers, and backend developers to
-                    ensure seamless integration of front-end and back-end functionality.
-                </li>
-                <li>
-                    Continuously optimizing web applications for speed and efficiency, improving
-                    response times and user satisfaction.
-                </li>
-            </ul> */}
         </div>
     );
 };
