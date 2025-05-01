@@ -1,0 +1,149 @@
+{
+    "basicDetails": {
+        "fullName": "Simone van Buuren",
+        "city": "Lisboa",
+        "country": "Portugal",
+        "email": "van.buuren.simone@proton.me",
+        "linkedInUrl": {
+            "url": "https://www.linkedin.com/in/simone-van-buuren/",
+            "name": "simone-van-buuren"
+        },
+        "githubUrl": { "url": "https://github.com/svbygoibear/", "name": "svbygoibear" },
+        "devToUrl": { "url": "https://dev.to/svbygoibear/", "name": "svbygoibear" },
+        "interests": [
+            "science fiction",
+            "photography",
+            "hiking & running",
+            "anthropology",
+            "history",
+            "traveling"
+        ]
+    },
+    "aboutMe": {
+        "descriptions": [
+            "I’m software engineer with 10+ years of experience in developing web applications and services and 4 years of experience in leading small developer teams technically as well as communication between technical and non-technical leadership.",
+            "Currently my tools of choice include React & TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker among others.",
+            "Don't let my degree fool you! I didn't stop learning after I graduated. I have a passion for learning and I am always looking for new challenges to improve my skills. I'm motivated, curious about the world and have a keen eye for detail. I own what I do and I believe in learning from my failures rather than never failing at all.",
+            "As cheesy as it sounds, I believe in the power of teamwork. Ubuntu."
+        ]
+    },
+    "employmentDetails": [
+        {
+            "companyName": "QorusDocs",
+            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
+            "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
+            "location": "Remote - Lisboa, Portugal",
+            "startDate": "11.2018",
+            "endDate": null,
+            "technologies": [
+                "React",
+                "TypeScript",
+                "C#",
+                "Golang",
+                "OpenAI",
+                "Azure",
+                "SQL",
+                "Docker"
+            ],
+            "descriptions": [
+                "Technical Lead on the development of Al-driven QPilot feature which increased user adoption by 45% and reduced proposal creation time by 60% & resulted in 3 new product offerings. This resulted in an increase in ARR as well as new clients to exceed targets 3 quarters in a row.",
+                "Owned our messaging, testing and CI/CD pipelines as part of our internal developer experience to own what is built & contributed to an internal worker in Golang that automates part of our developer board and bug response system. This has been implemented across all environments including production and staging."
+            ]
+        },
+        {
+            "companyName": "SPAN Digital Innovation",
+            "companyDescription": "They're what they call a technical strategy and software engineering firm. They work with global brands as well as start ups to conceptualize, develop and deploy SaaS solutions as well as integrating with client teams.",
+            "jobTitle": "Software Engineer",
+            "location": "Cape Town, South Africa",
+            "startDate": "01.2017",
+            "endDate": "10.2018",
+            "technologies": [
+                "Golang",
+                "Scala",
+                "React",
+                "VueJS",
+                "Redux",
+                "PostgreSQL",
+                "AWS",
+                "sass"
+            ],
+            "descriptions": [
+                "Developed a multi-platform streaming applications with payment integration for our major streaming client, BamTech, as well as creating the SDK and ADK for all their other React-based applications used by more than 10 teams.",
+                "Collaborated as a key member of the consulting team to completely rewrite a content-monetization platform's core product from PHP to Golang, helping establish engineering standards and develop boilerplate code foundations that enabled three internal teams to contribute to a shared codebase, increasing cross-team collaboration from effectively 0% to over 60%."
+            ]
+        },
+        {
+            "companyName": "Full Facing",
+            "companyDescription": "Full Facing is a software and hardware company specializing in IoT and developing data-driven platforms for eLearning, logistics & supply as well as live-event management.",
+            "jobTitle": "Software Developer",
+            "location": "Cape Town, South Africa",
+            "startDate": "03.2016",
+            "endDate": "01.2017",
+            "technologies": [
+                "Scala",
+                "Java",
+                "Python",
+                "MongoDB",
+                "RabbitMQ",
+                "AngularJS",
+                "CoffeeScript",
+                "Jenkins",
+                "Linux"
+            ],
+            "descriptions": [
+                "Responsible for an IoT internal integration into a system called iFings to create a workflow for the grocery pre-packaged food industry to increase food safety around hot foods, processing data from over 50 devices streaming every second at any given moment.",
+                "Contributed to DX internally by creating automated documentation tooling and microservice ADKs to help boost developer productivity and increase client focussed output, increasing sprint velocity by 18%."
+            ]
+        },
+        {
+            "companyName": "Sybrin Limited",
+            "companyDescription": "Enterprise software and services for the financial and insurance sectors. The main sectors of transformation include automation, payments & clearing, digital onboarding, identity verification and fraud risk management.",
+            "jobTitle": "Developer & Systems Analyst",
+            "location": "Johannesburg, South Africa",
+            "startDate": "12.2014",
+            "endDate": "02.2016",
+            "technologies": ["C#", "MS SQL Server", "SOAP", "WSDL", "SharePoint", "OCR", "SQL"],
+            "descriptions": [
+                "Developed workflow processing and granular case history tools, improving client turnaround on KYC at a minimum of 20% per case.",
+                "Responsible for query fine tuning, resulting in an overall reduction to hardware requirements for our on-premises software. One notable query improvement ensured processing from 8 seconds to less than 2 seconds."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Afrikaans",
+            "level": "Native"
+        },
+        {
+            "language": "English",
+            "level": "Native"
+        },
+        {
+            "language": "Portuguese",
+            "level": "Basic"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AZURE DEVELOPER ASSOCIATE (AZ 204)",
+            "date": "07.2021 - 07.2026",
+            "url": "https://learn.microsoft.com/api/credentials/share/en-us/SimonevanBuuren-7765/A64EDC08E72B7922?sharingId=500F3D95C94F5A7A"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BComp Honours in Computer Science",
+            "institution": "Belgium Campus",
+            "location": "Pretoria, South Africa",
+            "startDate": "01.2015",
+            "endDate": "12.2015"
+        },
+        {
+            "degree": "BComp in Computer Science",
+            "institution": "Belgium Campus",
+            "location": "Pretoria, South Africa",
+            "startDate": "01.2012",
+            "endDate": "12.2014"
+        }
+    ]
+}
