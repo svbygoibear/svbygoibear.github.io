@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { UserAboutMe } from "../../types/UserAboutMe";
-import { faUserAlt, faBriefcase, faCertificate, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faCertificate, faSchool } from "@fortawesome/free-solid-svg-icons";
 import { AboutMeHeader } from "./components/AboutMeHeader/AboutMeHeader";
 import { ContactDetails } from "./components/ContactDetails/ContactDetails";
-import { SectionTitle } from "./components/SectionTitle/SectionTitle";
 import { InterestDetails } from "./components/InterestDetails/InterestDetails";
+import { AboutMeDescriptionDetails } from "./components/AboutMeDescriptionDetails/AboutMeDescriptionDetails";
 
 type AboutMeProps = {
     data: UserAboutMe;
@@ -47,21 +47,7 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
             </div>
 
             <div className="main">
-                <div className="section_title">
-                    <FontAwesomeIcon icon={faUserAlt} className="icon_profile" />
-                    <div>ABOUT ME</div>
-                </div>
-                <div className="description">
-                    A motivated self-learner dedicated to developing clean, concise, and robust
-                    code. Continuously eager to expand and improve my skill set, demonstrating a
-                    strong commitment to ongoing personal and professional development.
-                </div>
-                <div className="description">My way:</div>
-                <ul>
-                    <li>four years in cartography and geodesy;</li>
-                    <li>five years in fashion photography;</li>
-                    <li>since 2018 - deep in software development.</li>
-                </ul>
+                <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
 
                 <div className="section_title education">
                     <FontAwesomeIcon icon={faBriefcase} className="icon_profile" />
