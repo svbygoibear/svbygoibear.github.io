@@ -22,8 +22,91 @@
     "aboutMe": {
         "descriptions": [
             "I’m software engineer with 10+ years of experience in developing web applications and services and 4 years of experience in leading small developer teams technically as well as communication between technical and non-technical leadership.",
+            "Currently my tools of choice include React & TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker among others.",
             "Don't let my degree fool you! I didn't stop learning after I graduated. I have a passion for learning and I am always looking for new challenges to improve my skills. I'm motivated, curious about the world and have a keen eye for detail. I own what I do and I believe in learning from my failures rather than never failing at all.",
             "As cheesy as it sounds, I believe in the power of teamwork. Ubuntu."
         ]
-    }
+    },
+    "employmentDetails": [
+        {
+            "companyName": "QorusDocs",
+            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
+            "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
+            "location": "Remote - Lisboa, Portugal",
+            "startDate": "11.2018",
+            "endDate": null,
+            "technologies": [
+                "React",
+                "TypeScript",
+                "C#",
+                "Golang",
+                "OpenAI",
+                "Azure",
+                "SQL",
+                "Docker"
+            ],
+            "descriptions": [
+                "Working on a project for a large international company in the field of logistics.",
+                "Leading a small team of developers and working closely with the product owner and other stakeholders."
+            ]
+        },
+        {
+            "companyName": "SPAN Digital Innovation",
+            "companyDescription": "They're what they call a technical strategy and software engineering firm. They work with global brands as well as start ups to conceptualize, develop and deploy SaaS solutions as well as integrating with client teams.",
+            "jobTitle": "Software Engineer",
+            "location": "Cape Town, South Africa",
+            "startDate": "01.2017",
+            "endDate": "10.2018",
+            "technologies": [
+                "Golang",
+                "Scala",
+                "React",
+                "VueJS",
+                "Redux",
+                "PostgreSQL",
+                "AWS",
+                "sass"
+            ],
+            "descriptions": [
+                "Working on a project for a large international company in the field of logistics.",
+                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+            ]
+        },
+        {
+            "companyName": "Full Facing",
+            "companyDescription": "Full Facing is a software and hardware company specializing in IoT and developing data-driven platforms for eLearning, logistics & supply as well as live-event management.",
+            "jobTitle": "Software Developer",
+            "location": "Cape Town, South Africa",
+            "startDate": "03.2016",
+            "endDate": "01.2017",
+            "technologies": [
+                "Scala",
+                "Java",
+                "Python",
+                "MongoDB",
+                "RabbitMQ",
+                "AngularJS",
+                "CoffeScript",
+                "Jenkins",
+                "Linux"
+            ],
+            "descriptions": [
+                "Working on a project for a large international company in the field of logistics.",
+                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+            ]
+        },
+        {
+            "companyName": "Sybrin Limited",
+            "companyDescription": "Enterprise software and services for the financial and insurance sectors. The main sectors of transformation include automation, payments & clearing, digital onboarding, identity verification and fraud risk management.",
+            "jobTitle": "Developer & Systems Analyst",
+            "location": "Johannesburg, South Africa",
+            "startDate": "12.2014",
+            "endDate": "02.2016",
+            "technologies": ["C#", "MS SQL Server", "SOAP", "WSDL", "SharePoint", "OCR", "SQL"],
+            "descriptions": [
+                "Working on a project for a large international company in the field of logistics.",
+                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+            ]
+        }
+    ]
 }
