@@ -13,7 +13,7 @@ export default defineConfig({
             output: {
                 assetFileNames: assetInfo => {
                     if (assetInfo?.name?.endsWith(".pdf")) {
-                        return "[name][extname]";
+                        return "assets/[name][extname]";
                     }
                     return "assets/[name]-[hash][extname]";
                 }
