@@ -46,8 +46,8 @@
                 "Docker"
             ],
             "descriptions": [
-                "Working on a project for a large international company in the field of logistics.",
-                "Leading a small team of developers and working closely with the product owner and other stakeholders."
+                "Technical Lead on the development of Al-driven QPilot feature which increased user adoption by 45% and reduced proposal creation time by 60% & resulted in 3 new product offerings. This resulted in an increase in ARR as well as new clients to exceed targets 3 quarters in a row.",
+                "Owned our messaging, testing and CI/CD pipelines as part of our internal developer experience to own what is built & contributed to an internal worker in Golang that automates part of our developer board and bug response system. This has been implemented across all environments including production and staging."
             ]
         },
         {
@@ -68,8 +68,8 @@
                 "sass"
             ],
             "descriptions": [
-                "Working on a project for a large international company in the field of logistics.",
-                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+                "Developed a multi-platform streaming applications with payment integration for our major streaming client, BamTech, as well as creating the SDK and ADK for all their other React-based applications used by more than 10 teams.",
+                "Collaborated as a key member of the consulting team to completely rewrite a content-monetization platform's core product from PHP to Golang, helping establish engineering standards and develop boilerplate code foundations that enabled three internal teams to contribute to a shared codebase, increasing cross-team collaboration from effectively 0% to over 60%."
             ]
         },
         {
@@ -86,13 +86,13 @@
                 "MongoDB",
                 "RabbitMQ",
                 "AngularJS",
-                "CoffeScript",
+                "CoffeeScript",
                 "Jenkins",
                 "Linux"
             ],
             "descriptions": [
-                "Working on a project for a large international company in the field of logistics.",
-                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+                "Responsible for an IoT internal integration into a system called iFings to create a workflow for the grocery pre-packaged food industry to increase food safety around hot foods, processing data from over 50 devices streaming every second at any given moment.",
+                "Contributed to DX internally by creating automated documentation tooling and microservice ADKs to help boost developer productivity and increase client focussed output, increasing sprint velocity by 18%."
             ]
         },
         {
@@ -104,8 +104,8 @@
             "endDate": "02.2016",
             "technologies": ["C#", "MS SQL Server", "SOAP", "WSDL", "SharePoint", "OCR", "SQL"],
             "descriptions": [
-                "Working on a project for a large international company in the field of logistics.",
-                "Developing web applications and services using React, TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker."
+                "Developed workflow processing and granular case history tools, improving client turnaround on KYC at a minimum of 20% per case.",
+                "Responsible for query fine tuning, resulting in an overall reduction to hardware requirements for our on-premises software. One notable query improvement ensured processing from 8 seconds to less than 2 seconds."
             ]
         }
     ],
