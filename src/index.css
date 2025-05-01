@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
 .animated-background {
     background-size: 400%;
     animation: animation 20s ease infinite;

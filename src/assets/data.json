@@ -1,0 +1,22 @@
+{
+    "basicDetails": {
+        "fullName": "Simone van Buuren",
+        "city": "Lisboa",
+        "country": "Portugal",
+        "email": "van.buuren.simone@proton.me",
+        "linkedInUrl": {
+            "url": "https://www.linkedin.com/in/simone-van-buuren/",
+            "name": "simone-van-buuren"
+        },
+        "githubUrl": { "url": "https://github.com/svbygoibear/", "name": "svbygoibear" },
+        "devToUrl": { "url": "https://dev.to/svbygoibear/", "name": "svbygoibear" },
+        "interests": [
+            "science fiction",
+            "photography",
+            "hiking & running",
+            "anthropology",
+            "history",
+            "traveling"
+        ]
+    }
+}

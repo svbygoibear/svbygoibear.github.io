@@ -1,9 +1,14 @@
 import React from "react";
 import { LoadingAnimation } from "./components/LoadingAnimation/LoadingAnimation";
 import { HomeLayout } from "./components/HomeLayout/HomeLayout";
+import { AboutMe } from "./components/AboutMe/AboutMe";
+import { UserAboutMe } from "./types/UserAboutMe";
+
+import rawData from "./assets/data.json";
 
 export const App: React.FunctionComponent = () => {
     const [isLoading, setIsLoading] = React.useState<boolean>(true);
+    const myData: UserAboutMe = rawData as UserAboutMe;
 
     React.useEffect(() => {
         const timer = setTimeout(() => {
@@ -19,7 +24,9 @@ export const App: React.FunctionComponent = () => {
             {!isLoading && (
                 <HomeLayout>
                     <div className="text-center text-m font-medium text-pink-600 flex h-screen">
-                        <div className="m-auto">watch this space</div>
+                        <div className="m-auto">
+                            <AboutMe data={myData} />
+                        </div>
                     </div>
                 </HomeLayout>
             )}
