@@ -10,10 +10,10 @@ export const SectionTitle: React.FunctionComponent<SectionTitleProps> = (
     props: SectionTitleProps
 ) => {
     return (
-        <div className="section_title">
-            <FontAwesomeIcon icon={faCircle} className="icon_circle" />
+        <div className="flex-row flex content-center text-lg">
+            <FontAwesomeIcon icon={faCircle} className="text-xs" />
             <div>{props.title.toLocaleUpperCase()}</div>
-            <FontAwesomeIcon icon={faCircle} className="icon_circle" />
+            <FontAwesomeIcon icon={faCircle} className="text-xs" />
         </div>
     );
 };

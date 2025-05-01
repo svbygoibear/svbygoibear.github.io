@@ -5,6 +5,7 @@ import { faUserAlt, faBriefcase, faCertificate, faSchool } from "@fortawesome/fr
 import { AboutMeHeader } from "./components/AboutMeHeader/AboutMeHeader";
 import { ContactDetails } from "./components/ContactDetails/ContactDetails";
 import { SectionTitle } from "./components/SectionTitle/SectionTitle";
+import { InterestDetails } from "./components/InterestDetails/InterestDetails";
 
 type AboutMeProps = {
     data: UserAboutMe;
@@ -28,25 +29,20 @@ const ListOfEducation = () => {
     );
 };
 
-const RightColumn = () => {
-    return (
-        <div className="right_column">
-            <SectionTitle title="INTERESTS" />
-            <div className="description">
-                <div className="line_description">
-                    photography, art, quantum physics, math, cognitive science
-                </div>
-            </div>
-        </div>
-    );
-};
-
 export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMeProps) => {
+    const LeftColumn = (): JSX.Element => {
+        return <ContactDetails userData={props.data.basicDetails} />;
+    };
+
+    const RightColumn = (): JSX.Element => {
+        return <InterestDetails userData={props.data.basicDetails} />;
+    };
+
     return (
         <div className="container">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
             <div className="columns">
-                <ContactDetails userData={props.data.basicDetails} />
+                <LeftColumn />
                 <RightColumn />
             </div>
 
