@@ -13,34 +13,47 @@ export const ContactDetails: React.FunctionComponent<ContactDetailsProps> = (
     props: ContactDetailsProps
 ) => {
     return (
-        <div className="left_column">
-            <SectionTitle title="Contacts" />
-            <div className="contacts">
-                <div className="line_description">
-                    <FontAwesomeIcon icon={faHome} size="sm" className="contact_icon" />
-                    <span className="grey">
+        <div>
+            <SectionTitle title="Contact Me" />
+            <div>
+                <div>
+                    <FontAwesomeIcon icon={faHome} size="sm" />{" "}
+                    <span className="text-gray-700 cursor-default">
+                        {" "}
                         {props.userData.city}, {props.userData.country}
                     </span>
                 </div>
-                <div className="line_description">
-                    <FontAwesomeIcon icon={faMailBulk} size="sm" className="contact_icon" />
-                    <span className="grey">{props.userData.email}</span>
+                <div>
+                    <FontAwesomeIcon icon={faMailBulk} size="sm" />{" "}
+                    <span className="text-gray-700">{props.userData.email}</span>
                 </div>
-                <div className="line_description">
-                    <FontAwesomeIcon icon={faLinkedin} size="sm" className="contact_icon" />
-                    <a className="grey" href={props.userData.linkedInUrl.url}>
+                <div>
+                    <FontAwesomeIcon icon={faLinkedin} size="sm" />
+                    <a
+                        className="text-gray-500 hover:text-gray-700"
+                        target="_blank"
+                        href={props.userData.linkedInUrl.url}>
+                        {" "}
                         {props.userData.linkedInUrl.name}
                     </a>
                 </div>
-                <div className="line_description">
-                    <FontAwesomeIcon icon={faGithub} size="sm" className="contact_icon" />
-                    <a className="grey" href={props.userData.githubUrl.url}>
+                <div>
+                    <FontAwesomeIcon icon={faGithub} size="sm" />
+                    <a
+                        className="text-gray-500 hover:text-gray-700"
+                        target="_blank"
+                        href={props.userData.githubUrl.url}>
+                        {" "}
                         {props.userData.githubUrl.name}
                     </a>
                 </div>
-                <div className="line_description">
-                    <FontAwesomeIcon icon={faDev} size="sm" className="contact_icon" />
-                    <a className="grey" href={props.userData.devToUrl.url}>
+                <div>
+                    <FontAwesomeIcon icon={faDev} size="sm" />
+                    <a
+                        className="text-gray-500 hover:text-gray-700"
+                        target="_blank"
+                        href={props.userData.devToUrl.url}>
+                        {" "}
                         {props.userData.devToUrl.name}
                     </a>
                 </div>
