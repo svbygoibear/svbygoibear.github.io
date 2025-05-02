@@ -14,25 +14,22 @@ type AboutMeProps = {
 };
 
 export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMeProps) => {
-    const LeftColumn = (): JSX.Element => {
-        return <ContactDetails userData={props.data.basicDetails} />;
-    };
-
-    const RightColumn = (): JSX.Element => {
-        return <InterestDetails userData={props.data.basicDetails} />;
-    };
-
     return (
         <div className="container">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
-            <div className="columns">
-                <LeftColumn />
-                <RightColumn />
+            <div className="content-center flex">
+                <div className="flex-2 w-60 p-1">
+                    <ContactDetails userData={props.data.basicDetails} />
+                </div>
+                <div className="flex-1 w-30">
+                    <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
+                </div>
+                <div className="flex-2 w-60  p-1">
+                    <InterestDetails userData={props.data.basicDetails} />
+                </div>
             </div>
 
             <div className="main">
-                <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
-
                 <AboutMeEmploymentDetails details={props.data.employmentDetails} />
 
                 <CertificateDetails details={props.data.certificates} />

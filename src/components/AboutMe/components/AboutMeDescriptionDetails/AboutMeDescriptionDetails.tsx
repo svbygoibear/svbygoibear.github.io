@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserAlt } from "@fortawesome/free-solid-svg-icons";
 
 type AboutMeDescriptionDetailsProps = {
     details: string[];
@@ -10,13 +8,9 @@ export const AboutMeDescriptionDetails: React.FunctionComponent<AboutMeDescripti
     props: AboutMeDescriptionDetailsProps
 ) => {
     return (
-        <div>
-            <div className="content-center text-lg">
-                <FontAwesomeIcon icon={faUserAlt} className="text-xs" />
-                <div>ABOUT ME</div>
-            </div>
+        <div className="content-center text-s">
             {props.details.map(detail => (
-                <div>{detail}</div>
+                <div className="p-1 leading-[1.2]">{detail}</div>
             ))}
         </div>
     );
