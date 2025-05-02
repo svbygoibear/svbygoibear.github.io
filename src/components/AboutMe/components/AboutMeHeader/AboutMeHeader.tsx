@@ -10,9 +10,9 @@ export const AboutMeHeader: React.FunctionComponent<AboutMeHeaderProps> = (
     props: AboutMeHeaderProps
 ) => {
     return (
-        <div className="text-4xl">
+        <div className="text-4xl pt-1">
             <div>{props.name.toLocaleUpperCase()}</div>
-            <div>
+            <div className="pt-2">
                 <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse" />
             </div>
         </div>
