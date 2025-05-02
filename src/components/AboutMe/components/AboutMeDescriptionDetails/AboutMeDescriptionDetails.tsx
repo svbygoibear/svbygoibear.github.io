@@ -10,7 +10,7 @@ export const AboutMeDescriptionDetails: React.FunctionComponent<AboutMeDescripti
     return (
         <div className="content-center text-s">
             {props.details.map(detail => (
-                <div className="p-1 leading-[1.2]">{detail}</div>
+                <div className="p-2 leading-[1.2]">{detail}</div>
             ))}
         </div>
     );

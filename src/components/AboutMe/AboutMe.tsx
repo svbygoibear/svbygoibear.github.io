@@ -20,13 +20,13 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
         <div className="pb-5">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
             <div className="content-center flex flex-wrap pt-4 pb-4">
-                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
+                <div className="text-left basis-1/4 p-1 min-w-[320px] max-w-[340px] grow pb-4">
                     <ContactDetails userData={props.data.basicDetails} />
                 </div>
-                <div className="basis-2/4 p-1 min-w-[320px] grow pb-4">
+                <div className="basis-2/4 p-1 min-w-[320px] max-w-[1000px] grow pb-4">
                     <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
                 </div>
-                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
+                <div className="text-right basis-1/4 p-1 min-w-[320px] max-w-[340px] grow pb-4">
                     <InterestDetails userData={props.data.basicDetails} />
                     <LanguageDetails languages={props.data.languages} />
                 </div>

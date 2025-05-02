@@ -136,14 +136,20 @@
             "institution": "Belgium Campus",
             "location": "Pretoria, South Africa",
             "startDate": "01.2015",
-            "endDate": "12.2015"
+            "endDate": "12.2015",
+            "description": [
+                "Thesis: A study of the impact of the use of a mobile application on the learning experience of students in a higher education environment."
+            ]
         },
         {
             "degree": "BComp in Computer Science",
             "institution": "Belgium Campus",
             "location": "Pretoria, South Africa",
             "startDate": "01.2012",
-            "endDate": "12.2014"
+            "endDate": "12.2014",
+            "description": [
+                "Thesis: A study of the impact of the use of a mobile application on the learning experience of students in a higher education environment."
+            ]
         }
     ]
 }
