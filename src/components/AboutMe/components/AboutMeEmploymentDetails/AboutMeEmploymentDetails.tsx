@@ -12,19 +12,24 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
 ) => {
     const renderJobSection = (job: EmploymentDetails): JSX.Element => {
         return (
-            <div className="content-start text-left pt-2 pb-1">
-                <div className="flex content-between flex-wrap text-pink-600">
-                    <div>
+            <div className="pt-2 pb-1">
+                <div className="flex justify-between text-pink-600">
+                    <div className="text-left">
                         {job.jobTitle} @{job.companyName}
                     </div>
-                    <div className="text-stone-400">{job.location}</div>
+                    <div>
+                        <div className="text-stone-400 self-end-safe text-right">
+                            {job.startDate}-{job.endDate === null ? "present" : job.endDate}
+                        </div>
+                        <div className="text-stone-400 text-right">{job.location}</div>
+                    </div>
                 </div>
-                <div className="text-stone-600">
-                    {job.startDate}-{job.endDate === null ? "present" : job.endDate}
+
+                <div className="text-left">{job.companyDescription}</div>
+                <div className="text-stone-500">
+                    Technologies used: {job.technologies.map(tech => tech).join(", ")}
                 </div>
-                <div>{job.companyDescription}</div>
-                <div>Technologies used: {job.technologies.map(tech => tech).join(", ")}</div>
-                <ul>
+                <ul className="text-left list-disc">
                     {job.descriptions.map((description, index) => (
                         <li key={index}>{description}</li>
                     ))}
@@ -34,7 +39,7 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
     };
 
     return (
-        <div className="content-start max-w-[950px]">
+        <div className="max-w-[950px]">
             <div className="content-center text-lg font-semibold">
                 <FontAwesomeIcon icon={faBriefcase} className="text-xs align-[0.1em] pr-1" />{" "}
                 <span>EMPLOYMENT HISTORY</span>
