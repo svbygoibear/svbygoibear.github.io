@@ -41,7 +41,7 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
                 <EducationDetails details={props.data.education} />
             </div>
 
-            <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse pb-4" />
+            <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse pb-4 pt-2" />
         </div>
     );
 };

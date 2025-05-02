@@ -14,12 +14,14 @@ export const CertificateDetails: React.FunctionComponent<CertificateDetailsProps
         return (
             <React.Fragment>
                 <div>
-                    <div>{cert.name}</div>
+                    <a
+                        className="text-gray-500 hover:text-gray-700"
+                        href={cert.url}
+                        target="_blank">
+                        {cert.name}
+                    </a>
                     <div className="text-stone-600">Issued & Valid: {cert.date}</div>
                 </div>
-                <a className="text-stone-600" href={cert.url}>
-                    show credentials
-                </a>
             </React.Fragment>
         );
     };
