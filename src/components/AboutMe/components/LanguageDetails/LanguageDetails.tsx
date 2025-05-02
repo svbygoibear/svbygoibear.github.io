@@ -12,7 +12,7 @@ export const LanguageDetails: React.FunctionComponent<LanguageDetailsProps> = (
 ) => {
     const renderLanguageSection = (language: Language): JSX.Element => {
         return (
-            <div>
+            <div className="leading-[1.2]">
                 {language.language} : {language.level}
             </div>
         );
@@ -20,9 +20,9 @@ export const LanguageDetails: React.FunctionComponent<LanguageDetailsProps> = (
 
     return (
         <div>
-            <div className="content-center text-lg">
-                <FontAwesomeIcon icon={faEarListen} className="text-xs" />
-                <div>Languages</div>
+            <div className="content-center text-lg font-semibold pt-6 pb-2">
+                <FontAwesomeIcon icon={faEarListen} className="text-xs align-[0.1em] pr-1" />
+                <span>LANGUAGES</span>
             </div>
             {props.languages.map((language: Language) => renderLanguageSection(language))}
         </div>

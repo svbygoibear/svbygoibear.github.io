@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
 import { UserAboutMe } from "../../types/UserAboutMe";
 import { AboutMeHeader } from "./components/AboutMeHeader/AboutMeHeader";
 import { ContactDetails } from "./components/ContactDetails/ContactDetails";
@@ -14,33 +16,29 @@ type AboutMeProps = {
 };
 
 export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMeProps) => {
-    const LeftColumn = (): JSX.Element => {
-        return <ContactDetails userData={props.data.basicDetails} />;
-    };
-
-    const RightColumn = (): JSX.Element => {
-        return <InterestDetails userData={props.data.basicDetails} />;
-    };
-
     return (
-        <div className="container">
+        <div className="pb-5">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
-            <div className="columns">
-                <LeftColumn />
-                <RightColumn />
+            <div className="content-center flex flex-wrap pt-4 pb-4">
+                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
+                    <ContactDetails userData={props.data.basicDetails} />
+                </div>
+                <div className="basis-2/4 p-1 min-w-[320px] grow pb-4">
+                    <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
+                </div>
+                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
+                    <InterestDetails userData={props.data.basicDetails} />
+                    <LanguageDetails languages={props.data.languages} />
+                </div>
             </div>
-
-            <div className="main">
-                <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
-
+            <div className="flex justify-center items-center">
                 <AboutMeEmploymentDetails details={props.data.employmentDetails} />
-
-                <CertificateDetails details={props.data.certificates} />
-
-                <EducationDetails details={props.data.education} />
-
-                <LanguageDetails languages={props.data.languages} />
             </div>
+            <div className="flex justify-center content-between flex-wrap pt-4 pb-4">
+                <CertificateDetails details={props.data.certificates} />
+                <EducationDetails details={props.data.education} />
+            </div>
+            <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse pb-4 pt-2" />
         </div>
     );
 };
