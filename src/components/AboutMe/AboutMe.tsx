@@ -34,9 +34,11 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
             <div className="flex justify-center items-center">
                 <AboutMeEmploymentDetails details={props.data.employmentDetails} />
             </div>
-            <div className="flex justify-center content-between flex-wrap pt-4 pb-4">
-                <CertificateDetails details={props.data.certificates} />
+            <div className="flex justify-center content-between flex-wrap">
                 <EducationDetails details={props.data.education} />
+            </div>
+            <div className="flex justify-center content-between flex-wrap pt-4 pb-8">
+                <CertificateDetails details={props.data.certificates} />
             </div>
             <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse pb-4 pt-2" />
         </div>
