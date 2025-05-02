@@ -17,14 +17,14 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
     return (
         <div className="container">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
-            <div className="content-center flex">
-                <div className="flex-2 w-60 p-1">
+            <div className="content-center flex flex-wrap pt-4 pb-4">
+                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
                     <ContactDetails userData={props.data.basicDetails} />
                 </div>
-                <div className="flex-1 w-30">
+                <div className="basis-2/4 p-1 min-w-[320px] grow pb-4">
                     <AboutMeDescriptionDetails details={props.data.aboutMe.descriptions} />
                 </div>
-                <div className="flex-2 w-60  p-1">
+                <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
                     <InterestDetails userData={props.data.basicDetails} />
                 </div>
             </div>
