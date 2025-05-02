@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
 import { UserAboutMe } from "../../types/UserAboutMe";
 import { AboutMeHeader } from "./components/AboutMeHeader/AboutMeHeader";
 import { ContactDetails } from "./components/ContactDetails/ContactDetails";
@@ -34,10 +36,12 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
                 <AboutMeEmploymentDetails details={props.data.employmentDetails} />
             </div>
 
-            <div className="flex justify-center items-center content-between flex-wrap pt-4 pb-4">
+            <div className="flex justify-center content-between flex-wrap pt-4 pb-4">
                 <CertificateDetails details={props.data.certificates} />
                 <EducationDetails details={props.data.education} />
             </div>
+
+            <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse pb-4" />
         </div>
     );
 };

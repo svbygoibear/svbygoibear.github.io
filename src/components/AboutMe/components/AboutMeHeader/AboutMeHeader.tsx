@@ -12,7 +12,7 @@ export const AboutMeHeader: React.FunctionComponent<AboutMeHeaderProps> = (
     return (
         <div className="text-4xl">
             <div>{props.name.toLocaleUpperCase()}</div>
-            <div className="icon">
+            <div>
                 <FontAwesomeIcon icon={faMicrochip} className="text-2xl animate-pulse" />
             </div>
         </div>

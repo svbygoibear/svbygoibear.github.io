@@ -12,12 +12,12 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
 ) => {
     const renderJobSection = (job: EmploymentDetails): JSX.Element => {
         return (
-            <React.Fragment>
-                <div className="text-pink-600">
+            <div className="content-start text-left pt-2 pb-1">
+                <div className="flex content-between flex-wrap text-pink-600">
                     <div>
                         {job.jobTitle} @{job.companyName}
                     </div>
-                    <div className="text-stone-600">{job.location}</div>
+                    <div className="text-stone-400">{job.location}</div>
                 </div>
                 <div className="text-stone-600">
                     {job.startDate}-{job.endDate === null ? "present" : job.endDate}
@@ -29,13 +29,13 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
                         <li key={index}>{description}</li>
                     ))}
                 </ul>
-            </React.Fragment>
+            </div>
         );
     };
 
     return (
-        <div className="max-w-[950px]">
-            <div className="content-center text-lg font-semibold pb-2">
+        <div className="content-start max-w-[950px]">
+            <div className="content-center text-lg font-semibold">
                 <FontAwesomeIcon icon={faBriefcase} className="text-xs align-[0.1em] pr-1" />{" "}
                 <span>EMPLOYMENT HISTORY</span>
             </div>
