@@ -10,12 +10,10 @@ export const InterestDetails: React.FunctionComponent<InterestDetailsProps> = (
     props: InterestDetailsProps
 ) => {
     return (
-        <div className="right_column">
+        <div>
             <SectionTitle title="Interests" />
-            <div className="description">
-                <div className="line_description">
-                    {props.userData.interests.map(_ => _).join(", ")}
-                </div>
+            <div>
+                <div>{props.userData.interests.map(_ => _).join(", ")}</div>
             </div>
         </div>
     );

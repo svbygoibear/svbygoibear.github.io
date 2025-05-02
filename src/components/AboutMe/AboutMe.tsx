@@ -26,6 +26,7 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
                 </div>
                 <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
                     <InterestDetails userData={props.data.basicDetails} />
+                    <LanguageDetails languages={props.data.languages} />
                 </div>
             </div>
 
@@ -35,8 +36,6 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
                 <CertificateDetails details={props.data.certificates} />
 
                 <EducationDetails details={props.data.education} />
-
-                <LanguageDetails languages={props.data.languages} />
             </div>
         </div>
     );

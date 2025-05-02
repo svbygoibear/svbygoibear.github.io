@@ -34,10 +34,10 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
     };
 
     return (
-        <div>
-            <div className="content-center text-lg">
-                <FontAwesomeIcon icon={faBriefcase} className="text-xs" />
-                <div>EMPLOYMENT HISTORY</div>
+        <div className="max-w-[950px]">
+            <div className="content-center text-lg font-semibold">
+                <FontAwesomeIcon icon={faBriefcase} className="text-xs align-[0.1em]" />{" "}
+                <span>EMPLOYMENT HISTORY</span>
             </div>
             {props.details.map((job: EmploymentDetails) => renderJobSection(job))}
         </div>
