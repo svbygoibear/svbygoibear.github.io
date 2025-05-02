@@ -33,7 +33,7 @@ export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: Home
             <header className="bg-gray-200 text-grey text-center">
                 <HeaderMenu menuItems={menuItems} />
             </header>
-            <main className="flex-1 overflow-y-auto p-5">{props.children}</main>
+            <main className="flex-1 overflow-y-auto bg-neutral-50 p-5">{props.children}</main>
             <footer className="py-5 bg-gray-200 text-center text-slate-500 text-m font-medium">
                 hand crafted 😎{" "}
                 <a

@@ -23,8 +23,8 @@ export const App: React.FunctionComponent = () => {
             {isLoading && <LoadingAnimation />}
             {!isLoading && (
                 <HomeLayout>
-                    <div className="text-center text-m font-medium text-pink-600 flex h-screen">
-                        <div className="m-auto">
+                    <div className="text-center text-m font-medium text-grey-600 bg-neutral-50 flex h-screen">
+                        <div className="m-auto bg-neutral-50">
                             <AboutMe data={myData} />
                         </div>
                     </div>
