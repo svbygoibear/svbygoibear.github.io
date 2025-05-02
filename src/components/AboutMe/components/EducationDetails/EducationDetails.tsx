@@ -21,10 +21,10 @@ export const EducationDetails: React.FunctionComponent<EducationDetailsProps> = 
     };
 
     return (
-        <div>
-            <div className="content-center text-lg">
-                <FontAwesomeIcon icon={faSchool} className="text-xs" />
-                <div>EDUCATION</div>
+        <div className="pr-4 pl-4">
+            <div className="content-center text-lg font-semibold pt-6 pb-2">
+                <FontAwesomeIcon icon={faSchool} className="text-xs align-[0.1em] pr-2" />
+                <span>EDUCATION</span>
             </div>
             <ul>{props.details.map((ed: Education) => renderEducationSection(ed))}</ul>
         </div>

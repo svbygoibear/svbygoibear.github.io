@@ -15,7 +15,7 @@ type AboutMeProps = {
 
 export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMeProps) => {
     return (
-        <div className="container">
+        <div className="pb-5">
             <AboutMeHeader name={props.data.basicDetails.fullName} />
             <div className="content-center flex flex-wrap pt-4 pb-4">
                 <div className="basis-1/4 p-1 min-w-[320px] grow pb-4">
@@ -30,11 +30,12 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
                 </div>
             </div>
 
-            <div className="main">
+            <div className="flex justify-center items-center">
                 <AboutMeEmploymentDetails details={props.data.employmentDetails} />
+            </div>
 
+            <div className="flex justify-center items-center content-between flex-wrap pt-4 pb-4">
                 <CertificateDetails details={props.data.certificates} />
-
                 <EducationDetails details={props.data.education} />
             </div>
         </div>
