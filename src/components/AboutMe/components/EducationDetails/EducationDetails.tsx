@@ -12,11 +12,19 @@ export const EducationDetails: React.FunctionComponent<EducationDetailsProps> = 
 ) => {
     const renderEducationSection = (ed: Education): JSX.Element => {
         return (
-            <React.Fragment>
-                <li key={ed.degree} className="text-stone-600">
-                    {ed.startDate}-{ed.endDate}, <span className="text-pink-600">{ed.degree}</span>
+            <div className="pb-2 max-w-[1000px]">
+                <li key={ed.degree} className="">
+                    <span>
+                        {ed.startDate}-{ed.endDate},{" "}
+                        <span className="text-pink-600 ">{ed.degree}</span>
+                    </span>
+                    <div className="content-center text-s text-stone-600">
+                        {ed.descriptions.map(line => (
+                            <div className="leading-[1.2]">{line}</div>
+                        ))}
+                    </div>
                 </li>
-            </React.Fragment>
+            </div>
         );
     };
 
