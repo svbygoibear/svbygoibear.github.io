@@ -38,7 +38,7 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
     };
 
     return (
-        <div className="max-w-[950px]">
+        <div className="max-w-[970px] p-2">
             <div className="content-center text-lg font-semibold">
                 <FontAwesomeIcon icon={faBriefcase} className="text-xs align-[0.1em] pr-1" />{" "}
                 <span>EMPLOYMENT HISTORY</span>

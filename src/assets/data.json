@@ -30,9 +30,9 @@
     "employmentDetails": [
         {
             "companyName": "QorusDocs",
-            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
+            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
             "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
-            "location": "Remote - Lisboa, Portugal",
+            "location": "Remote, Lisboa, Portugal",
             "startDate": "11.2018",
             "endDate": null,
             "technologies": [
