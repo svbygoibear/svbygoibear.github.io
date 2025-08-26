@@ -4,4 +4,5 @@ export type Education = {
     location: string;
     startDate: string;
     endDate: string;
+    descriptions: string[];
 };

@@ -22,19 +22,38 @@
     "aboutMe": {
         "descriptions": [
             "I’m a software engineer with 10+ years of experience in developing web applications and services and 4 years of experience in leading small developer teams technically as well as communication between technical and non-technical leadership.",
-            "Currently my tools of choice include React & TypeScript, C#, Golang, OpenAI, Azure, SQL and Docker among others.",
+            "Currently my tools of choice include React & TypeScript, Kotlin, C#, Golang, OpenAI, AWS, PostgreSQL and Docker among others.",
             "Don't let my degree fool you! I didn't stop learning after I graduated. I have a passion for learning and I am always looking for new challenges to improve my skills. I'm motivated, curious about the world and have a keen eye for detail. I own what I do and I believe in learning from my failures rather than never failing at all.",
             "As cheesy as it sounds, I believe in the power of teamwork. Ubuntu."
         ]
     },
     "employmentDetails": [
         {
+            "companyName": "Pleo",
+            "companyDescription": "Pleo is a SaaS, FinTech company who handles much more than just company card expenses. You can also manage your employee reimbursements, mileage, subscriptions and invoices using the same platform - with the same ease. Minimise human errors and avoid manual expense reports.",
+            "jobTitle": "Staff Software Engineer",
+            "location": "Remote, Lisboa, Portugal",
+            "startDate": "09.2025",
+            "endDate": null,
+            "technologies": [
+                "Kotlin",
+                "TypeScript",
+                "Kubernetes",
+                "Kafka",
+                "OpenAI",
+                "AWS",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "descriptions": []
+        },
+        {
             "companyName": "QorusDocs",
             "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
             "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
             "location": "Remote, Lisboa, Portugal",
             "startDate": "11.2018",
-            "endDate": null,
+            "endDate": "08.2025",
             "technologies": [
                 "React",
                 "TypeScript",
@@ -136,14 +155,20 @@
             "institution": "Belgium Campus",
             "location": "Pretoria, South Africa",
             "startDate": "01.2015",
-            "endDate": "12.2015"
+            "endDate": "12.2015",
+            "descriptions": [
+                "Thesis: A study of the impact of the use of a mobile application on the learning experience of students in a higher education environment."
+            ]
         },
         {
             "degree": "BComp in Computer Science",
             "institution": "Belgium Campus",
             "location": "Pretoria, South Africa",
             "startDate": "01.2012",
-            "endDate": "12.2014"
+            "endDate": "12.2014",
+            "descriptions": [
+                "Thesis: A study of the impact of the use of a mobile application on the learning experience of students in a higher education environment."
+            ]
         }
     ]
 }

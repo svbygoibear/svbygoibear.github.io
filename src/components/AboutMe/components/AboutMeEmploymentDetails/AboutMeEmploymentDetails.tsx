@@ -12,7 +12,7 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
 ) => {
     const renderJobSection = (job: EmploymentDetails): JSX.Element => {
         return (
-            <div className="pt-2 pb-2">
+            <div className="pt-2 pb-6">
                 <div className="flex justify-between text-pink-600">
                     <div className="text-left font-semibold">
                         {job.jobTitle} @{job.companyName}
@@ -24,11 +24,11 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
                         <div className="text-stone-400 text-right">{job.location}</div>
                     </div>
                 </div>
-                <div className="text-left">{job.companyDescription}</div>
+                <div className="text-left leading-[1.2]">{job.companyDescription}</div>
                 <div className="text-stone-500 pt-1 pb-1">
                     Technologies used: {job.technologies.map(tech => tech).join(", ")}
                 </div>
-                <ul className="text-left list-disc">
+                <ul className="text-left list-disc leading-[1.2]">
                     {job.descriptions.map((description, index) => (
                         <li key={index}>{description}</li>
                     ))}
