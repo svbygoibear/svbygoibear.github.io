@@ -21,7 +21,7 @@ export const AboutMe: React.FunctionComponent<AboutMeProps> = (props: AboutMePro
             <div className="flex flex-col items-center pb-4">
                 <AboutMeHeader name={props.data.basicDetails.fullName} />
             </div>
-            <div className="content-center flex flex-wrap pt-4 pb-4">
+            <div className="content-center flex flex-wrap justify-center lg:justify-start pt-4 pb-4">
                 <div className="text-center lg:text-left basis-1/4 p-1 min-w-[320px] max-w-[340px] grow pb-4">
                     <ContactDetails userData={props.data.basicDetails} />
                 </div>
