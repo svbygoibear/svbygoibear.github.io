@@ -11,16 +11,41 @@ I don't often for for minimalism but this is a playground where I just "try thin
 
 [![Deploy Pages](https://github.com/svbygoibear/svbygoibear.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/svbygoibear/svbygoibear.github.io/actions/workflows/deploy.yml) [![pages-build-deployment](https://github.com/svbygoibear/svbygoibear.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/svbygoibear/svbygoibear.github.io/actions/workflows/pages/pages-build-deployment) [![Release](https://img.shields.io/github/release/svbygoibear/svbygoibear.github.io.svg?style=flat-square)](https://github.com/svbygoibear/svbygoibear.github.io/releases)
 
-# React + TypeScript + Vite
+## Contributing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Before jumping ahead and contributing, make sure that you understand:
 
-Currently, two official plugins are available:
+-   Vite and React (this is the main bones of this project)
+-   TailwindCSS (yes I did not want to write my own)
+-   And then never push code directly - always create a PR for work.
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Getting Started
 
-## Expanding the ESLint configuration
+Before diving into this project and adding more items (lets face it, this info is for myself in the event that I forget) you are going to have to make sure you have"
+
+-   Git (duh)
+-   Node
+-   NPM
+-   VSCode preferably but if you want to edit this in NotePad++ be my guest.
+
+#### Setup
+
+-   Minimum of node `v18.14.0`
+-   Minimum of NPM `9.3.1`
+
+To get going install everything through npm;
+
+```bash
+npm i
+```
+
+Then you can run it locally
+
+```bash
+npm run start
+```
+
+#### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
