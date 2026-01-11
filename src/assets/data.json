@@ -38,6 +38,7 @@
             "technologies": [
                 "Kotlin",
                 "TypeScript",
+                "React",
                 "Kubernetes",
                 "Kafka",
                 "OpenAI",
@@ -45,7 +46,9 @@
                 "PostgreSQL",
                 "Docker"
             ],
-            "descriptions": []
+            "descriptions": [
+                "Staff Engineer for Credit in Spend Controls & Cash Management where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions."
+            ]
         },
         {
             "companyName": "QorusDocs",
