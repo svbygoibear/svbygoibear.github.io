@@ -28,7 +28,6 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
             <div className="pt-2 pb-6">
                 <div className="flex justify-between text-pink-600">
                     <div className="text-left font-semibold flex items-center gap-1.5">
-                        <span>{job.jobTitle} @{job.companyName}</span>
                         {job.companyLogo && companyLogos[job.companyLogo] && (
                             <img
                                 src={companyLogos[job.companyLogo]}
@@ -36,6 +35,7 @@ export const AboutMeEmploymentDetails: React.FunctionComponent<AboutMeEmployment
                                 className="h-5 w-auto"
                             />
                         )}
+                        <span>{job.jobTitle} @{job.companyName}</span>
                     </div>
                     <div className="text-sm">
                         <div className="text-stone-400 self-end-safe text-right">
