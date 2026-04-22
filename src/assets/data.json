@@ -42,13 +42,13 @@
                 "React",
                 "Kubernetes",
                 "Kafka",
-                "OpenAI",
                 "AWS",
                 "PostgreSQL",
                 "Docker"
             ],
             "descriptions": [
-                "Staff Engineer for Credit in Spend Controls & Cash Management where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions."
+                "Staff Engineer for Credit in Cash Management and Treasury where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions by redesigning the existing burdens in the system using DDD and event-driven architecture.",
+                "Drove cross-domain initiatives to adopt a new golden-path in product teams by designing workflow engines for complex and long-running tasks and migrating away from JobRunr to Temporal while handling security and procurement requirements. This decreased operational effort by more than 54% which in turn reduced costs associated with new development, maintenance and observability."
             ]
         },
         {
