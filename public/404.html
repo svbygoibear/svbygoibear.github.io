@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>svbygoibear</title>
+    <script>
+      // Single-page app redirect for GitHub Pages.
+      // Encodes the current path as a query param on the root URL so the main
+      // index.html loads, then history.replaceState restores the real URL.
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/' +
+        '?p=' + encodeURIComponent(l.pathname + l.search) +
+        (l.hash || '')
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
