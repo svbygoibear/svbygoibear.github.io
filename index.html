@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Simone van Buuren</title>
         <meta name="og:title" content="Simone van Buuren" />
+        <script>
+            // GitHub Pages SPA redirect: restore the real path from ?p=
+            (function () {
+                var p = new URLSearchParams(window.location.search).get('p');
+                if (p) {
+                    window.history.replaceState(null, '', decodeURIComponent(p));
+                }
+            })();
+        </script>
     </head>
     <body
         class="w-screen animated-background h-screen bg-gradient-to-r from-violet-200 to-pink-200"
