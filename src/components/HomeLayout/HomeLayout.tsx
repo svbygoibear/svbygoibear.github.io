@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
+import { faRss } from "@fortawesome/free-solid-svg-icons";
 import { MenuItem } from "../../types/MenuItem";
 import { HeaderMenu } from "../HeaderMenu/HeaderMenu";
 
@@ -37,6 +38,15 @@ export const HomeLayout: React.FunctionComponent<HomeLayoutProps> = (props: Home
             isActive: location.pathname.startsWith("/blog"),
             onClick: () => {
                 navigate("/blog");
+            }
+        },
+        {
+            icon: "",
+            id: "4",
+            name: "rss",
+            faIcon: faRss,
+            onClick: () => {
+                window.open("/rss.xml", "_blank");
             }
         }
     ];
