@@ -30,6 +30,7 @@
     "employmentDetails": [
         {
             "companyName": "Pleo",
+            "companyLogo": "5_pleo.png",
             "companyDescription": "Pleo is a SaaS, FinTech company who handles much more than just company card expenses. You can also manage your employee reimbursements, mileage, subscriptions and invoices using the same platform - with the same ease. Minimise human errors and avoid manual expense reports.",
             "jobTitle": "Staff Software Engineer",
             "location": "Remote, Lisboa, Portugal",
@@ -52,6 +53,7 @@
         },
         {
             "companyName": "QorusDocs",
+            "companyLogo": "4_qorusdocs.png",
             "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
             "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
             "location": "Remote, Lisboa, Portugal",
@@ -74,6 +76,7 @@
         },
         {
             "companyName": "SPAN Digital Innovation",
+            "companyLogo": "3_spandigital.png",
             "companyDescription": "They're what they call a technical strategy and software engineering firm. They work with global brands as well as start ups to conceptualize, develop and deploy SaaS solutions as well as integrating with client teams.",
             "jobTitle": "Software Engineer",
             "location": "Cape Town, South Africa",
@@ -96,6 +99,7 @@
         },
         {
             "companyName": "Full Facing",
+            "companyLogo": "2_fullfacing.png",
             "companyDescription": "Full Facing is a software and hardware company specializing in IoT and developing data-driven platforms for eLearning, logistics & supply as well as live-event management.",
             "jobTitle": "Software Developer",
             "location": "Cape Town, South Africa",
@@ -119,6 +123,7 @@
         },
         {
             "companyName": "Sybrin Limited",
+            "companyLogo": "1_sybrin.png",
             "companyDescription": "Enterprise software and services for the financial and insurance sectors. The main sectors of transformation include automation, payments & clearing, digital onboarding, identity verification and fraud risk management.",
             "jobTitle": "Developer & Systems Analyst",
             "location": "Johannesburg, South Africa",
