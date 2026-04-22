@@ -7,6 +7,7 @@ import fullfacing from "../../../../assets/companies/2_fullfacing.png";
 import spandigital from "../../../../assets/companies/3_spandigital.png";
 import qorusdocs from "../../../../assets/companies/4_qorusdocs.png";
 import pleo from "../../../../assets/companies/5_pleo.png";
+import nekohealth from "../../../../assets/companies/6_nekohealth.png";
 
 const companyLogos: Record<string, string> = {
     "1_sybrin.png": sybrin,
@@ -14,6 +15,7 @@ const companyLogos: Record<string, string> = {
     "3_spandigital.png": spandigital,
     "4_qorusdocs.png": qorusdocs,
     "5_pleo.png": pleo,
+    "6_nekohealth.png": nekohealth,
 };
 
 type AboutMeEmploymentDetailsProps = {
