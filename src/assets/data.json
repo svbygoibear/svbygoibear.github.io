@@ -30,6 +30,7 @@
     "employmentDetails": [
         {
             "companyName": "Pleo",
+            "companyLogo": "5_pleo.png",
             "companyDescription": "Pleo is a SaaS, FinTech company who handles much more than just company card expenses. You can also manage your employee reimbursements, mileage, subscriptions and invoices using the same platform - with the same ease. Minimise human errors and avoid manual expense reports.",
             "jobTitle": "Staff Software Engineer",
             "location": "Remote, Lisboa, Portugal",
@@ -41,18 +42,20 @@
                 "React",
                 "Kubernetes",
                 "Kafka",
-                "OpenAI",
                 "AWS",
                 "PostgreSQL",
                 "Docker"
             ],
             "descriptions": [
-                "Staff Engineer for Credit in Spend Controls & Cash Management where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions."
+                "Staff Engineer for Credit in Cash Management and Treasury where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions by redesigning the existing burdens in the system using DDD and event-driven architecture.",
+                "Drove cross-domain initiatives to adopt a new golden-path in product teams by designing workflow engines for complex and long-running tasks and migrating away from JobRunr to Temporal while handling security and procurement requirements. This decreased operational effort by more than 54% which in turn reduced costs associated with new development, maintenance and observability.",
+                "Worked with platform teams to architect designs for an e2e testing framework between backend exclusive/internal systems and reducing incidents by more than 20%."
             ]
         },
         {
             "companyName": "QorusDocs",
-            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
+            "companyLogo": "4_qorusdocs.png",
+            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPs. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
             "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
             "location": "Remote, Lisboa, Portugal",
             "startDate": "11.2018",
@@ -74,6 +77,7 @@
         },
         {
             "companyName": "SPAN Digital Innovation",
+            "companyLogo": "3_spandigital.png",
             "companyDescription": "They're what they call a technical strategy and software engineering firm. They work with global brands as well as start ups to conceptualize, develop and deploy SaaS solutions as well as integrating with client teams.",
             "jobTitle": "Software Engineer",
             "location": "Cape Town, South Africa",
@@ -96,6 +100,7 @@
         },
         {
             "companyName": "Full Facing",
+            "companyLogo": "2_fullfacing.png",
             "companyDescription": "Full Facing is a software and hardware company specializing in IoT and developing data-driven platforms for eLearning, logistics & supply as well as live-event management.",
             "jobTitle": "Software Developer",
             "location": "Cape Town, South Africa",
@@ -119,6 +124,7 @@
         },
         {
             "companyName": "Sybrin Limited",
+            "companyLogo": "1_sybrin.png",
             "companyDescription": "Enterprise software and services for the financial and insurance sectors. The main sectors of transformation include automation, payments & clearing, digital onboarding, identity verification and fraud risk management.",
             "jobTitle": "Developer & Systems Analyst",
             "location": "Johannesburg, South Africa",
@@ -148,7 +154,7 @@
     "certificates": [
         {
             "name": "AZURE DEVELOPER ASSOCIATE (AZ 204)",
-            "date": "07.2021 - 07.2026",
+            "date": "07.2021 - 07.2027",
             "url": "https://learn.microsoft.com/api/credentials/share/en-us/SimonevanBuuren-7765/A64EDC08E72B7922?sharingId=500F3D95C94F5A7A"
         }
     ],
