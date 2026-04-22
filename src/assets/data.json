@@ -48,13 +48,14 @@
             ],
             "descriptions": [
                 "Staff Engineer for Credit in Cash Management and Treasury where my first main focus has been to drive performance and operations in current systems to accommodate a scaling of 1000x in growth and traffic from usage and transactions by redesigning the existing burdens in the system using DDD and event-driven architecture.",
-                "Drove cross-domain initiatives to adopt a new golden-path in product teams by designing workflow engines for complex and long-running tasks and migrating away from JobRunr to Temporal while handling security and procurement requirements. This decreased operational effort by more than 54% which in turn reduced costs associated with new development, maintenance and observability."
+                "Drove cross-domain initiatives to adopt a new golden-path in product teams by designing workflow engines for complex and long-running tasks and migrating away from JobRunr to Temporal while handling security and procurement requirements. This decreased operational effort by more than 54% which in turn reduced costs associated with new development, maintenance and observability.",
+                "Worked with platform teams to architect designs for an e2e testing framework between backend exclusive/internal systems and reducing incidents by more than 20%."
             ]
         },
         {
             "companyName": "QorusDocs",
             "companyLogo": "4_qorusdocs.png",
-            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPS. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
+            "companyDescription": "QorusDocs is a SaaS company that uses AI for proposal management as well as streamlining responses to RFPs. They are a small team of 50+ people and are based in the USA, UK and South Africa and often fight above their weight class.",
             "jobTitle": "Technical Lead (Previously Senior Software Engineer)",
             "location": "Remote, Lisboa, Portugal",
             "startDate": "11.2018",
