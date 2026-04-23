@@ -1,0 +1,88 @@
+name: Auto Release
+
+on:
+    push:
+        branches:
+            - main
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Set up Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Update release draft
+              id: release_drafter
+              uses: release-drafter/release-drafter@v6
+              with:
+                  config-name: release-drafter.yml
+                  commitish: main
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Get current major version
+              id: current_version
+              run: |
+                  CURRENT_TAG=$(git tag --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -1 || true)
+                  if [ -z "$CURRENT_TAG" ]; then
+                    CURRENT_MAJOR=$(node -p "require('./package.json').version.split('.')[0]")
+                  else
+                    CURRENT_MAJOR=$(echo "$CURRENT_TAG" | sed 's/v//' | cut -d. -f1)
+                  fi
+                  echo "major=$CURRENT_MAJOR" >> $GITHUB_OUTPUT
+
+            - name: Check if major release
+              id: version_check
+              run: |
+                  NEW_MAJOR=$(echo "${{ steps.release_drafter.outputs.resolved_version }}" | cut -d. -f1)
+                  CURRENT_MAJOR="${{ steps.current_version.outputs.major }}"
+                  if [ "$NEW_MAJOR" -gt "$CURRENT_MAJOR" ]; then
+                    echo "is_major=true" >> $GITHUB_OUTPUT
+                  else
+                    echo "is_major=false" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Publish major release
+              if: steps.version_check.outputs.is_major == 'true'
+              run: |
+                  curl -s -X PATCH \
+                    -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                    -H "Accept: application/vnd.github.v3+json" \
+                    "https://api.github.com/repos/${{ github.repository }}/releases/${{ steps.release_drafter.outputs.id }}" \
+                    -d '{"draft": false}'
+
+            - name: Bump package.json version
+              run: |
+                  VERSION="${{ steps.release_drafter.outputs.resolved_version }}"
+                  node -e "
+                    const fs = require('fs');
+                    const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+                    if (pkg.version !== '$VERSION') {
+                      pkg.version = '$VERSION';
+                      fs.writeFileSync('package.json', JSON.stringify(pkg, null, 4) + '\n');
+                    }
+                  "
+
+            - name: Commit version bump
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add package.json
+                  if git diff --staged --quiet; then
+                    echo "Version unchanged, skipping commit"
+                  else
+                    git commit -m "chore: bump version to ${{ steps.release_drafter.outputs.resolved_version }} [skip ci]"
+                    git push
+                  fi

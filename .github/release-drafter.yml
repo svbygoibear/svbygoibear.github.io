@@ -1,6 +1,11 @@
 name-template: "v$RESOLVED_VERSION 🌈 Service Release"
 tag-template: "v$RESOLVED_VERSION"
+initial-version: "0.0.7"
 categories:
+    - title: "💥 Breaking Changes"
+      collapse-after: 3
+      labels:
+          - "major"
     - title: "🚀 Feature(s)"
       collapse-after: 5
       labels:
