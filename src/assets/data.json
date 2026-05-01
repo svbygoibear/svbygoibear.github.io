@@ -29,13 +29,26 @@
     },
     "employmentDetails": [
         {
+            "companyName": "Neko Health",
+            "companyLogo": "6_nekohealth.png",
+            "companyDescription": "Neko Health is a HealthTech company reimagining healthcare from the ground up — shifting the focus from reactive treatment to proactive prevention.",
+            "jobTitle": "Staff Software Engineer",
+            "location": "Remote, Lisboa, Portugal",
+            "startDate": "05.2026",
+            "endDate": null,
+            "technologies": ["C#", "Python", "React", "Kubernetes", "Kafka", "Azure", "Docker"],
+            "descriptions": [
+                "Leading internal tooling, compliance, and cross-functional enablement across hardware, data, and web engineering teams — bridging reliability engineering and developer productivity at a staff/lead level. "
+            ]
+        },
+        {
             "companyName": "Pleo",
             "companyLogo": "5_pleo.png",
             "companyDescription": "Pleo is a SaaS, FinTech company who handles much more than just company card expenses. You can also manage your employee reimbursements, mileage, subscriptions and invoices using the same platform - with the same ease. Minimise human errors and avoid manual expense reports.",
             "jobTitle": "Staff Software Engineer",
             "location": "Remote, Lisboa, Portugal",
             "startDate": "09.2025",
-            "endDate": null,
+            "endDate": "04.2026",
             "technologies": [
                 "Kotlin",
                 "TypeScript",
