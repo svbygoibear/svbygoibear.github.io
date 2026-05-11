@@ -45,6 +45,16 @@ Then you can run it locally
 npm run start
 ```
 
+#### Writing a new blog post
+
+Run the interactive script to scaffold a new post:
+
+```bash
+npm run new-post
+```
+
+It will prompt you for a title, description, and comma-separated tags, then create a new Markdown file under `src/posts/` with today's date, a slugified filename, and `draft: true` set in the frontmatter. When the post is ready to publish, change `draft: true` to `draft: false` and merge the PR.
+
 #### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
