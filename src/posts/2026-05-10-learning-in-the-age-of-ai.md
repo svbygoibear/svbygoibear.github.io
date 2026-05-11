@@ -35,7 +35,9 @@ But that is _exactly_ my play. I don't want the wonderful people I work with to 
 
 ### Section Two: Adoption
 
-Some days it feels like we are in an adopt or die situation.
+Some days it feels like we are in an adopt or die situation. I actually feel like I need to think a bit more about this adoption piece but I will say I have seen both sides of it.
+
+Folks who push everything to the point of insanity through AI all the way to engineers who occasionally open Claude or Copilot to chat.
 
 ## Conclusion
 
