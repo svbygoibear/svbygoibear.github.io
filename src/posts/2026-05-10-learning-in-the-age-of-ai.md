@@ -35,8 +35,10 @@ But that is _exactly_ my play. I don't want the wonderful people I work with to 
 
 ### Section Two: Adoption
 
-<!-- ... -->
+Some days it feels like we are in an adopt or die situation.
 
 ## Conclusion
 
-<!-- ... -->
+Next I want to take a good look at what enablement actually means. Like for real how I have been doing it and how I have seen others doing it. I know that an adoption curve exists and I definitely fall into the early adopter category, but at the rate innovation is being demanded I want to try my best to do what I can to get as many folks as possible the tools they need to navigate this uncertain landscape.
+
+Until the next one!
