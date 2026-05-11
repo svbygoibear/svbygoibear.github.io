@@ -3,10 +3,10 @@ title: "Learning in the age of AI"
 date: "2026-05-10"
 description: "Staff, Senior, Junior or even VP of Engineering; we all need to learn. But with the accelerated pace of AI how can we keep up?"
 tags: ["engineering", "learning", "ai"]
-draft: true
+draft: false
 ---
 
-## Introduction
+## 👋 Introduction
 
 It is no secret that if you are in tech (or even STEM) right now, you can't go at least 15 minutes without talking about AI.
 
@@ -20,7 +20,7 @@ _Almost a direct quote from the douche-bro dude_
 
 But working in tech means that I know that this is the reality of the world we live in. Wether we will become enablers of AI or burn through a thousand rain forests while the AMD stock prices climb... This is our reality. For better or for worse.
 
-### Section One: What is this?
+### 🤔 Section One: What is this?
 
 I've decided to write more than one article about this, so take this musing as part 1. It is just to get my thoughts out that has been _building_ for the last couple of weeks without any place to go.
 
@@ -33,7 +33,7 @@ Depending on which side of the table you're sitting I am either part of the solu
 
 But that is _exactly_ my play. I don't want the wonderful people I work with to be left behind. I want us to get ahead of the curve even if I am not totally sure as to what that looks like.
 
-### Section Two: Adoption
+### 🚀 Section Two: Adoption
 
 Some days it feels like we are in an adopt or die situation. I actually feel like I need to think a bit more about this adoption piece but I will say I have seen both sides of it.
 
@@ -47,7 +47,7 @@ The thing that nobody wants to say out loud in the company all-hands is that the
 
 So adoption becomes a tricky subject. How do you measure it, how do you track it and ultimately since we're throwing around big corporate slang how do you determine impact. How do you achieve this without breaking the very backbone of PMs, sales, engineers, scientists or even underwriters who make up the DNA of your business?
 
-## Conclusion
+## 🔭 Conclusion
 
 Next I want to take a good look at what enablement actually means and the emotional toll of our current uncertainty. Like for real how I have been doing it and how I have seen others doing it. I know that an adoption curve exists and I definitely fall into the early adopter category, but at the rate innovation is being demanded I want to try my best to do what I can to get as many folks as possible the tools they need to navigate this uncertain landscape.
 
