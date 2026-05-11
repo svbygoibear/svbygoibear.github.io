@@ -47,6 +47,8 @@ The thing that nobody wants to say out loud in the company all-hands is that the
 
 So adoption becomes a tricky subject. How do you measure it, how do you track it and ultimately since we're throwing around big corporate slang how do you determine impact. How do you achieve this without breaking the very backbone of PMs, sales, engineers, scientists or even underwriters who make up the DNA of your business?
 
+---
+
 ## 🔭 Conclusion
 
 Next I want to take a good look at what enablement actually means and the emotional toll of our current uncertainty. Like for real how I have been doing it and how I have seen others doing it. I know that an adoption curve exists and I definitely fall into the early adopter category, but at the rate innovation is being demanded I want to try my best to do what I can to get as many folks as possible the tools they need to navigate this uncertain landscape.
