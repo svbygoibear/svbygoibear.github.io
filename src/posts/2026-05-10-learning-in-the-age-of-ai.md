@@ -10,7 +10,7 @@ draft: false
 
 It is no secret that if you are in tech (or even STEM) right now, you can't go at least 15 minutes without talking about AI.
 
-![just brunch](../assets/posts/2026-05-10_1.svg)
+![just brunch](/posts/2026-05-10_1.svg)
 
 In fact, it is so bad at the moment that one calm Saturday morning over brunch while I was trying to decide between a flat white or the cold brew, I heard some random dude across from me try to convince his date that he does all of his work through AI; and that Gemini is better than ChatGPT. At this point, it is inescapable. I can't even have my slice of orange coconut cake without someone mentioning their "workflow" or how the future is being an "operator of agents".
 
@@ -38,6 +38,8 @@ But that is _exactly_ my play. I don't want the wonderful people I work with to 
 Some days it feels like we are in an adopt or die situation. I actually feel like I need to think a bit more about this adoption piece but I will say I have seen both sides of it.
 
 Folks who push everything to the point of insanity through AI all the way to engineers who occasionally open Claude or Copilot to chat.
+
+---
 
 ## Conclusion
 
