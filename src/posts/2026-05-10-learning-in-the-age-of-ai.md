@@ -18,18 +18,18 @@ In fact, it is so bad at the moment that one calm Saturday morning over brunch w
 
 _Almost a direct quote from the douche-bro dude_
 
-But working in tech means that I know that this is the reality of the world we live in. Wether we will become enablers of AI or burn through a thousand rain forests while the AMD stock prices climb... This is our reality. For better or for worse.
+But working in tech means that I know that this is the reality of the world we live in. Whether we will become enablers of AI or burn through a thousand rain forests while the AMD stock prices climb... This is our reality. For better or for worse.
 
 ### 🤔 Section One: What is this?
 
-I've decided to write more than one article about this, so take this musing as part 1. It is just to get my thoughts out that has been _building_ for the last couple of weeks without any place to go.
+I've decided to write more than one article about this, so take this musing as part 1. It is just to get my thoughts out that have been _building_ for the last couple of weeks without any place to go.
 
 Depending on which side of the table you're sitting I am either part of the solution or part of the problem. I have come to the realisation that regardless of which side I am on, we're basically all already on this ship. **Now what?** If I had to admit to something, I would have to add to my sins:
 
 -   I have and I am directly working in teams to "enable AI" across organisations.
 -   I use it on a daily basis. No, this article is written by my own grubby hands but that little image at the top? Yeah thank you Claude.
 -   I talk about it. At work, at meetups. At conferences.
--   Heck, I even write tools and articles to other people can adopt it.
+-   Heck, I even write tools and articles so other people can adopt it.
 
 But that is _exactly_ my play. I don't want the wonderful people I work with to be left behind. I want us to get ahead of the curve even if I am not totally sure as to what that looks like.
 
@@ -39,13 +39,13 @@ Some days it feels like we are in an adopt or die situation. I actually feel lik
 
 Folks who push everything to the point of insanity through AI all the way to engineers who occasionally open Claude or Copilot to chat. I will also say that the adoption in itself is not a pure measure of success either. You could be burning away tokens and burning away the rainforest so to speak and still not have the level of impact you think.
 
-The thing that nobody wants to say out loud in the company all-hands is that the barriers to adoption is almost never about the tools themselves since they're pretty rad and we are pretty good at making them. What can it be then?
+The thing that nobody wants to say out loud in the company all-hands is that the barriers to adoption are almost never about the tools themselves since they're pretty rad and we are pretty good at making them. What can it be then?
 
 **Fear is the obvious one.** And I don't mean fear in a dramatic, sci-fi sense. I mean the quieter, more uncomfortable kind. The engineer who has spent ten years getting really good at a thing suddenly has to ask themselves: _if the tool can do this, what exactly am I here for?_ That is a deeply human question and a PowerPoint deck titled "AI Enablement Q2 Initiative" is not going to answer it.
 
 **There is also the mandate problem.** Nothing kills grassroots adoption faster than someone three levels above you deciding that the whole org is now "AI-first" and booking a lunch-and-learn about it. Suddenly a thing that some engineers were naturally curious about gets repackaged as a corporate initiative with OKRs attached.
 
-So adoption becomes a tricky subject. How do you measure it, how do you track it and ultimately since we're throwing around big corporate slang how do you determine impact. How do you achieve this without breaking the very backbone of PMs, sales, engineers, scientists or even underwriters who make up the DNA of your business?
+So adoption becomes a tricky subject. How do you measure it, how do you track it and ultimately since we're throwing around big corporate slang how do you determine impact? How do you achieve this without breaking the very backbone of PMs, sales, engineers, scientists or even underwriters who make up the DNA of your business?
 
 ---
 
