@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="&#39;IBM Plex Mono&#39;,&#39;JetBrains Mono&#39;,ui-monospace,monospace">
+  <rect width="1600" height="900" fill="#f6f4ef"></rect>
+
+  
+  <g stroke="#1a1a1a" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M 40 40 L 80 40 M 40 40 L 40 80"></path>
+    <path d="M 1560 40 L 1520 40 M 1560 40 L 1560 80"></path>
+    <path d="M 40 860 L 80 860 M 40 860 L 40 820"></path>
+    <path d="M 1560 860 L 1520 860 M 1560 860 L 1560 820"></path>
+  </g>
+
+  
+  <line x1="120" y1="420" x2="1480" y2="420" stroke="#1a1a1a" stroke-width="1" opacity="0.18"></line>
+  <g stroke="#1a1a1a" stroke-width="1" opacity="0.06">
+    <line x1="120" y1="390" x2="1480" y2="390"></line>
+    <line x1="120" y1="360" x2="1480" y2="360"></line>
+    <line x1="120" y1="330" x2="1480" y2="330"></line>
+  </g>
+
+  
+  <ellipse cx="1100" cy="600" rx="240" ry="22" fill="#1a1a1a"></ellipse>
+  <path d="M 860 600 L 880 660 L 1320 660 L 1340 600 Z" fill="#1a1a1a" opacity="0.78"></path>
+
+  
+  <g fill="#1a1a1a">
+    <path d="M 900 600 L 912 480 Q 922 458 952 456 L 988 456 Q 1018 458 1028 480 L 1040 600 Z"></path>
+    <circle cx="970" cy="420" r="38"></circle>
+    <path d="M 1160 600 L 1172 480 Q 1182 458 1212 456 L 1248 456 Q 1278 458 1288 480 L 1300 600 Z"></path>
+    <circle cx="1230" cy="420" r="38"></circle>
+  </g>
+
+  
+  <g stroke="#1a1a1a" stroke-width="1.5" fill="#f6f4ef">
+    <path d="M 1058 588 L 1064 612 L 1098 612 L 1104 588 Z"></path>
+    <path d="M 1118 588 L 1124 612 L 1158 612 L 1164 588 Z"></path>
+  </g>
+
+  
+  <g fill="none" stroke="#c91e6f" stroke-width="2" opacity="0.6" stroke-dasharray="4 6">
+    <path d="M 990 400 Q 700 280 380 420"></path>
+    <path d="M 990 410 Q 720 320 400 460"></path>
+    <path d="M 990 420 Q 740 360 420 500"></path>
+  </g>
+
+  
+  <g font-size="26" fill="#1a1a1a">
+    <text x="780" y="280" transform="rotate(-4 780 280)">&#34;...vibe coded the whole thing...&#34;</text>
+    <text x="640" y="350" transform="rotate(-3 640 350)" opacity="0.85">&#34;...just prompts now, not code...&#34;</text>
+    <text x="500" y="200" transform="rotate(-6 500 200)" opacity="0.7">&#34;...didn&#39;t even open the file...&#34;</text>
+    <text x="560" y="430" transform="rotate(-2 560 430)" opacity="0.55">&#34;...ship it...&#34;</text>
+  </g>
+
+  
+  <rect x="0" y="700" width="1600" height="200" fill="#1a1a1a"></rect>
+  <g stroke="#f6f4ef" stroke-width="1" opacity="0.18">
+    <line x1="0" y1="740" x2="1600" y2="740"></line>
+    <line x1="0" y1="780" x2="1600" y2="780"></line>
+    <line x1="0" y1="820" x2="1600" y2="820"></line>
+  </g>
+
+  
+  <g>
+    <ellipse cx="240" cy="700" rx="180" ry="10" fill="#1a1a1a" opacity="0.4"></ellipse>
+    <path d="M 100 540 L 130 700 L 350 700 L 380 540 Z" fill="#f6f4ef" stroke="#1a1a1a" stroke-width="4"></path>
+    <path d="M 380 575 Q 440 590 432 650 Q 422 690 380 690" fill="none" stroke="#1a1a1a" stroke-width="4"></path>
+    <ellipse cx="240" cy="540" rx="140" ry="20" fill="#c98a3c" stroke="#1a1a1a" stroke-width="4"></ellipse>
+    <ellipse cx="240" cy="538" rx="100" ry="8" fill="#1a1a1a" opacity="0.25"></ellipse>
+    <g fill="none" stroke="#1a1a1a" stroke-width="2.5" opacity="0.55" stroke-linecap="round">
+      <path d="M 180 510 Q 165 470 185 430 Q 205 390 185 350"></path>
+      <path d="M 240 510 Q 255 470 235 430 Q 215 390 235 350"></path>
+      <path d="M 300 510 Q 285 470 305 430 Q 325 390 305 350"></path>
+    </g>
+  </g>
+
+  
+  <g transform="rotate(-3 700 668)">
+    <rect x="560" y="640" width="280" height="56" fill="#f6f4ef" stroke="#1a1a1a" stroke-width="3"></rect>
+    <line x1="580" y1="660" x2="820" y2="660" stroke="#1a1a1a" stroke-width="1" opacity="0.4"></line>
+    <line x1="580" y1="676" x2="780" y2="676" stroke="#1a1a1a" stroke-width="1" opacity="0.4"></line>
+  </g>
+
+  
+  <g transform="translate(440 580)" fill="none" stroke="#c91e6f" stroke-width="3">
+    <path d="M 0 0 Q -4 -22 18 -24 Q 38 -24 38 -4 Q 38 14 22 18 Q 12 22 12 32"></path>
+    <circle cx="12" cy="42" r="3" fill="#c91e6f"></circle>
+  </g>
+
+  
+  <g font-size="20" fill="#f6f4ef" opacity="0.9">
+    <text x="120" y="860">FIG.01.b</text>
+    <text x="260" y="860">two tables over · involuntary signal acquisition</text>
+    <text x="1480" y="860" text-anchor="end" fill="#c91e6f" opacity="1">▌</text>
+    <text x="1455" y="860" text-anchor="end" fill="#f6f4ef">REC</text>
+  </g>
+</svg>
