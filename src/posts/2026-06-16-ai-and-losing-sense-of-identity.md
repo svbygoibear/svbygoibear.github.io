@@ -39,17 +39,17 @@ Which begs the question: _are_ we even producing anything of value anymore? What
 
 ### The Realities
 
-Let me try to call it for what it is. **The burnout of it all? That is the the bit _nobody_ wants to put into a ticket.** The reason behind that is that it isn't a bug but rather a slow (well faster now at least) accumulation of changes to the work you thought you knew how to do.
+Let me try to call it for what it is. **The burnout of it all? That is the bit _nobody_ wants to put into a ticket.** The reason behind that is that it isn't a bug but rather a slow (well faster now at least) accumulation of changes to the work you thought you knew how to do.
 
-I can't even really point out when I started to notice my mental fatigue but it certainly was not some sort of dramatic, prod is burning down moment. It was probably between different claude windows, having 2 IDEs open and a bunch of tabs with half read reviews just coming out of a meeting with a coworker saying
+I can't even really point out when I started to notice my mental fatigue but it certainly was not some sort of dramatic, prod is burning down moment. It was probably between different claude windows, having 2 IDEs open and a bunch of tabs with half read reviews... And just coming out of a meeting with a coworker saying:
 
 > yeah so I actually have no idea what is going on in some parts of the codebase anymore and I am not sure how to review it either.
 
-In most cases, LLMs are the tools that helps us go faster but the cognitive overhead of being the validator, the prompter, the architect, the reviewer and ultimately still the person responsible for what shipped didn't shrink while the speed increased. It just changed shape.
+In most cases, LLMs are the tools that help us go faster but the cognitive overhead of being the validator, the prompter, the architect, the reviewer and ultimately still the person responsible for what shipped didn't shrink while the speed increased. It just changed shape.
 
 It is legit exhausting in a way that is hard to explain to someone who hasn't felt it. The kind of tired where you haven't actually built something from scratch in weeks but you have been busy every single day. The kind where your pull requests go out faster than they ever did but you have no idea if you actually learned anything this sprint.
 
-There is also something happening to the way we think about ownership. _Claude wrote that_ or _Claude is making our technical debt worse_. But it isn't always _Claude_ behind the commit SHA that gets merged into main. The context of the system, how things link together or even why decisions are made is harder to accumulate in your brain when you are reviewing diffs instead of writing them.
+There is also something happening to the way we think about ownership. _Claude wrote that_ or _Claude is making our technical debt worse_. But it isn't always _Claude_ behind the commit SHA that gets merged into main. The context of the system, how things link together or even why decisions are made are harder to accumulate in your brain when you are reviewing diffs instead of writing them.
 
 I am not saying stop using the tools. But I am saying: if you feel a vague, low-grade dread about opening your laptop in the morning that wasn't there two years ago, you are not imagining it and you are not alone.
 
@@ -59,7 +59,7 @@ I am not saying stop using the tools. But I am saying: if you feel a vague, low-
 
 Yeah yeah I know following a similar cheesy format of intro, section -> section and conclusion for this article. I can 100% promise you I will do the same in the next one I write.
 
-The honest truth is that I do not want to add onto the discussion about the value of AI. You can kick a rock (or lookup Lovable on LinkedIn) to get a feel for the public opinion out there. I say this perhaps because I feel comfortable with the pivots we are seeing, I feel comfortable challenging my tools and moreover I think we should have been asking long before LLMs took over the market wether what we are writing should just work or work well.
+The honest truth is that I do not want to add onto the discussion about the value of AI. You can kick a rock (or lookup Lovable on LinkedIn) to get a feel for the public opinion out there. I say this perhaps because I feel comfortable with the pivots we are seeing. I feel comfortable challenging my tools and moreover I think we should have been asking long before LLMs took over the market whether what we are writing should just work or work well.
 
 I think the next thing I want to look at beyond the emotional impact is also what I am seeing in non-technical teams. Boy oh boy... Have I seen things.
 
