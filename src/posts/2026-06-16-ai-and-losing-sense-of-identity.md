@@ -12,21 +12,21 @@ Yes, I know, another post about the builder-identity crisis with the "rise of AI
 
 ![coffee chat](/posts/2026-06-16_1.svg)
 
-I should probably have said building is cheaper; but in all honesty I was really trying to very gently strong-arm the team I am on into making use of ADRs and Technical Spikes given that the team has grown from 3 people to 7 in less than a year. Plus alongside the hands of all of these capable people, we also have practically unlimited Claude usage and very tight deadlines.
+I should probably have said building is cheaper; but in all honesty I was really trying to gently strong-arm my team into making use of ADRs and Technical Spikes given that the team has grown from 3 people to 7 in less than a year. Plus alongside the hands of all of these capable people, we also have practically unlimited Claude usage and very tight deadlines.
 
 > Instead of piling up our technical debt with crappy code; lets take the time to think, come to a consensus and make our agents drive from there.
 
 _Just imagine that is what I said in the meeting but imagine it with more swearing_
 
-Despite all of that, I genuinely love building. Don't get me wrong, I am 100% in the camp of people that likes (tries to at least) to write up concise technical plans, understand top level architecture and think about systems. But equally I love to craft code. Which is something we (us) are doing a hell of a lot less of completely by hand nowadays.
+Despite all of that, I genuinely love building. Don't get me wrong, I am someone who genuinely likes (or at least tries) to write up concise technical plans, understand top level architecture and think about systems. But equally I love to craft code. Which is something we (us) are doing a hell of a lot less of completely by hand nowadays.
 
 ### Not getting into the AI debate here
 
 It would be a lie to say that I don't feel tempted to link a couple of posts where folks say things like "AI is the lever" (still grinds my gears that we have to say AI instead of LLMs but I digress). Sure, I do not disagree.
 
-But what are we doing about our friends, our coworkers, our crafty humans and creators who enjoy the pursuit of building and have been building for years now and suddenly one of the main parts of their jobs that they've enjoyed gets replaced? I am talking about the folks who code, the homies who create style guides and even those who work on copy and content. Yes we are all still doing those things but often now not completely by hand anymore and the pace of change is way faster than the introduction of mass-adopted compiled code or digital cameras.
+But what are we doing about our friends, our coworkers, our crafty humans and creators who've spent years building things they love, only to watch one of the core parts of their job get replaced? I am talking about the folks who code, the homies who create style guides and even those who work on copy and content. Yes we are all still doing those things but often now not completely by hand anymore and the pace of change is way faster than the introduction of mass-adopted compiled code or digital cameras.
 
-If there is a deity in my computer they would blush if they were to told you exactly _how many_ `.md` files I have created over the last year. The fundamentals of my work stays the same but the way I execute it is changing faster than when I worked for a consultancy and I had to swap programming languages between clients.
+If there is a deity in my computer they would blush if they were to tell you exactly _how many_ `.md` files I have created over the last year. The fundamentals of my work stay the same but the way I execute it is changing faster than when I worked for a consultancy and I had to swap programming languages between clients.
 
 Do you know what you call that? **Context switching**. Do you know what context switching does?
 
@@ -35,21 +35,23 @@ Do you know what you call that? **Context switching**. Do you know what context 
 -   Hurtles us closer to burnout
 -   Makes the theatre of looking busy even easier to look busy for
 
-Which begs the question. _Are_ we even producing anything of value anymore? What was our value in the first place?
+Which begs the question: _are_ we even producing anything of value anymore? What was our value in the first place?
 
 ### The Realities
 
-Some days it feels like we are in an adopt-or-die situation. I actually feel like I need to think a bit more about this adoption piece but I will say I have seen both sides of it.
+Let me try to call it for what it is. **The burnout of it all? That is the the bit _nobody_ wants to put into a ticket.** The reason behind that is that it isn't a bug but rather a slow (well faster now at least) accumulation of changes to the work you thought you knew how to do.
 
-I have seen folks who push everything to the point of insanity through AI, all the way to engineers who occasionally open Claude or Copilot to chat. I will also say that the adoption in itself is not a pure measure of success either. You could be burning away tokens and burning away the rainforest so to speak and still not have the level of impact you think.
+I can't even really point out when I started to notice my mental fatigue but it certainly was not some sort of dramatic, prod is burning down moment. It was probably between different claude windows, having 2 IDEs open and a bunch of tabs with half read reviews just coming out of a meeting with a coworker saying
 
-The thing that nobody wants to say out loud in the company all-hands is that the barriers to adoption are almost never about the tools themselves since they're pretty rad and we are pretty good at making them. What can it be then?
+> yeah so I actually have no idea what is going on in some parts of the codebase anymore and I am not sure how to review it either.
 
-**Fear is the obvious one.** And I don't mean fear in a dramatic, sci-fi sense. I mean the quieter, more uncomfortable kind. The engineer who has spent ten years getting really good at a thing suddenly has to ask themselves: _if the tool can do this, what exactly am I here for?_ That is a deeply human question and a PowerPoint deck titled "AI Enablement Q2 Initiative" is not going to answer it.
+In most cases, LLMs are the tools that helps us go faster but the cognitive overhead of being the validator, the prompter, the architect, the reviewer and ultimately still the person responsible for what shipped didn't shrink while the speed increased. It just changed shape.
 
-**There is also the mandate problem.** Nothing kills grassroots adoption faster than someone three levels above you deciding that the whole org is now "AI-first" and booking a lunch-and-learn about it. Suddenly a thing that some engineers were naturally curious about gets repackaged as a corporate initiative with OKRs attached.
+It is legit exhausting in a way that is hard to explain to someone who hasn't felt it. The kind of tired where you haven't actually built something from scratch in weeks but you have been busy every single day. The kind where your pull requests go out faster than they ever did but you have no idea if you actually learned anything this sprint.
 
-So adoption becomes a tricky subject. How do you measure it, how do you track it and ultimately since we're throwing around big corporate slang how do you determine impact? How do you achieve this without breaking the very backbone of PMs, sales, engineers, scientists or even underwriters who make up the DNA of your business?
+There is also something happening to the way we think about ownership. _Claude wrote that_ or _Claude is making our technical debt worse_. But it isn't always _Claude_ behind the commit SHA that gets merged into main. The context of the system, how things link together or even why decisions are made is harder to accumulate in your brain when you are reviewing diffs instead of writing them.
+
+I am not saying stop using the tools. But I am saying: if you feel a vague, low-grade dread about opening your laptop in the morning that wasn't there two years ago, you are not imagining it and you are not alone.
 
 ---
 
