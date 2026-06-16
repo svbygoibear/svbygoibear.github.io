@@ -1,26 +1,26 @@
 ---
-title: "Learning in the age of AI"
-date: "2026-05-10"
-description: "Staff, Senior, Junior or even VP of Engineering; we all need to learn. But with the accelerated pace of AI how can we keep up?"
+title: "AI and losing sense of identity"
+date: "2026-06-16"
+description: "Beyond just technical folks, but especially technical folks; are you also feeling that looming wave of burnout?"
 tags: ["engineering", "learning", "ai"]
 draft: false
 ---
 
 ## 👋 Introduction
 
-It is no secret that if you are in tech (or even STEM) right now, you can't go five minutes without talking about AI.
+Yes, I know, another post about the builder-identity crisis with the "rise of AI". I've even been incredibly guilty this week of saying in a meeting "building is cheap, thinking is not".
 
-![just brunch](/posts/2026-05-10_1.svg)
+![coffee chat](/posts/2026-06-16_1.svg)
 
-In fact, it is so bad at the moment that one calm Saturday morning over brunch while I was trying to decide between a flat white or the cold brew, I heard some random dude across from me try to convince his date that he does all of his work through AI, and that Gemini is better than ChatGPT. At this point, it is inescapable. I can't even have my slice of orange coconut cake without someone mentioning their "workflow" or how the future is being an "operator of agents".
+I should probably have said building is cheaper; but in all honesty I was really trying to very gently strong-arm the team I am on into making use of ADRs and Technical Spikes given that the team has grown from 3 people to 7 in less than a year. Plus alongside the hands of all of these capable people, we also have practically unlimited Claude usage and very tight deadlines.
 
-> I don't even write my own emails anymore! Gemini does everything for me. It is like I work 3 hours a day and my boss doesn't even notice!
+> Instead of piling up our technical debt with crappy code; lets take the time to think, come to a consensus and make our agents drive from there.
 
-_Almost a direct quote from the douche-bro dude_
+_Just imagine that is what I said in the meeting but imagine it with more swearing_
 
-But working in tech means that I know that this is the reality of the world we live in. Whether we will become enablers of AI or burn through a thousand rain forests while the AMD stock prices climb... This is our reality. For better or for worse.
+Despite all of that, I genuinely love building. Don't get me wrong, I am 100% in the camp of people that likes (tries to at least) to write up concise technical plans, understand top level architecture and think about systems. But equally I love to craft code. Which is something we (us) are doing a hell of a lot less of completely by hand nowadays.
 
-### 🤔 Section One: What is this?
+### Not getting into the AI debate here
 
 I've decided to write more than one article about this, so take this musing as part 1. It is just to get my thoughts out that have been _building_ for the last couple of weeks without any place to go.
 
@@ -33,7 +33,7 @@ Depending on which side of the table you're sitting on, I am either part of the 
 
 But that is _exactly_ my play. I don't want the wonderful people I work with to be left behind. I want us to get ahead of the curve even if I am not totally sure what that looks like.
 
-### 🚀 Section Two: Adoption
+### The Realities
 
 Some days it feels like we are in an adopt-or-die situation. I actually feel like I need to think a bit more about this adoption piece but I will say I have seen both sides of it.
 
@@ -50,6 +50,8 @@ So adoption becomes a tricky subject. How do you measure it, how do you track it
 ---
 
 ## 🔭 Conclusion
+
+Yeah yeah I know following a similar cheesy format of intro, section -> section and conclusion for this article. I can 100% promise you I will do the same in the next one I write.
 
 Next I want to take a good look at what enablement actually means and the emotional toll of our current uncertainty. Like for real how I have been doing it and how I have seen others doing it. I know that an adoption curve exists and I definitely fall into the early adopter category, but at the rate innovation is being demanded, I want to try my best to do what I can to get as many folks as possible the tools they need to navigate this uncertain landscape.
 
