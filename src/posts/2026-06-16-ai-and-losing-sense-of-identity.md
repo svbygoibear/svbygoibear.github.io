@@ -22,16 +22,20 @@ Despite all of that, I genuinely love building. Don't get me wrong, I am 100% in
 
 ### Not getting into the AI debate here
 
-I've decided to write more than one article about this, so take this musing as part 1. It is just to get my thoughts out that have been _building_ for the last couple of weeks without any place to go.
+It would be a lie to say that I don't feel tempted to link a couple of posts where folks say things like "AI is the lever" (still grinds my gears that we have to say AI instead of LLMs but I digress). Sure, I do not disagree.
 
-Depending on which side of the table you're sitting on, I am either part of the solution or part of the problem. I have come to the realisation that regardless of which side I am on, we're basically all already on this ship. **Now what?** If I had to admit to something, I would have to add to my sins:
+But what are we doing about our friends, our coworkers, our crafty humans and creators who enjoy the pursuit of building and have been building for years now and suddenly one of the main parts of their jobs that they've enjoyed gets replaced? I am talking about the folks who code, the homies who create style guides and even those who work on copy and content. Yes we are all still doing those things but often now not completely by hand anymore and the pace of change is way faster than the introduction of mass-adopted compiled code or digital cameras.
 
--   I have been and am currently working directly in teams to "enable AI" across organisations.
--   I use it on a daily basis. No, this article is written by my own grubby hands but that little image at the top? Yeah thank you Claude.
--   I talk about it. At work, at meetups. At conferences.
--   Heck, I even write tools and articles so other people can adopt it.
+If there is a deity in my computer they would blush if they were to told you exactly _how many_ `.md` files I have created over the last year. The fundamentals of my work stays the same but the way I execute it is changing faster than when I worked for a consultancy and I had to swap programming languages between clients.
 
-But that is _exactly_ my play. I don't want the wonderful people I work with to be left behind. I want us to get ahead of the curve even if I am not totally sure what that looks like.
+Do you know what you call that? **Context switching**. Do you know what context switching does?
+
+-   Breaks our human brains
+-   Sucks the life out of us, even more so for some of the non-neurotypical among us
+-   Hurtles us closer to burnout
+-   Makes the theatre of looking busy even easier to look busy for
+
+Which begs the question. _Are_ we even producing anything of value anymore? What was our value in the first place?
 
 ### The Realities
 
