@@ -53,6 +53,8 @@ So adoption becomes a tricky subject. How do you measure it, how do you track it
 
 Yeah yeah I know following a similar cheesy format of intro, section -> section and conclusion for this article. I can 100% promise you I will do the same in the next one I write.
 
-Next I want to take a good look at what enablement actually means and the emotional toll of our current uncertainty. Like for real how I have been doing it and how I have seen others doing it. I know that an adoption curve exists and I definitely fall into the early adopter category, but at the rate innovation is being demanded, I want to try my best to do what I can to get as many folks as possible the tools they need to navigate this uncertain landscape.
+The honest truth is that I do not want to add onto the discussion about the value of AI. You can kick a rock (or lookup Lovable on LinkedIn) to get a feel for the public opinion out there. I say this perhaps because I feel comfortable with the pivots we are seeing, I feel comfortable challenging my tools and moreover I think we should have been asking long before LLMs took over the market wether what we are writing should just work or work well.
 
-Until the next one!
+I think the next thing I want to look at beyond the emotional impact is also what I am seeing in non-technical teams. Boy oh boy... Have I seen things.
+
+Like last time, until then!
